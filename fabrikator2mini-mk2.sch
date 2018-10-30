@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:fabrikator2mini-mk2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:ESD_Protection
+EESchema Schematic File Version 4
 LIBS:fabrikator2mini-mk2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bluepill U1
+L custom:bluepill U1
 U 1 1 5A651A4F
 P 7700 1800
 F 0 "U1" H 7700 2900 60  0000 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 8450 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5A652012
 P 8450 900
 F 0 "#PWR01" H 8450 650 50  0001 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 8450 900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5A652036
 P 7000 2650
 F 0 "#PWR02" H 7000 2400 50  0001 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 7000 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR03
+L power:+3.3V #PWR03
 U 1 1 5A651B61
 P 7000 2750
 F 0 "#PWR03" H 7000 2600 50  0001 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 7000 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR04
+L power:+3.3V #PWR04
 U 1 1 5A651C09
 P 8400 1050
 F 0 "#PWR04" H 8400 900 50  0001 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 8400 1050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR05
+L power:+3.3V #PWR05
 U 1 1 5A6530F6
 P 950 7050
 F 0 "#PWR05" H 950 6900 50  0001 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 950 7050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5A653113
 P 950 7250
 F 0 "#PWR06" H 950 7000 50  0001 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 950 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Micro_SD_Card CON1
+L fabrikator2mini-mk2-rescue:Micro_SD_Card CON1
 U 1 1 5A653215
 P 1900 7050
 F 0 "CON1" H 1250 7650 50  0000 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 1900 7050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5A65339C
 P 2750 7650
 F 0 "#PWR07" H 2750 7400 50  0001 C CNN
@@ -230,7 +198,7 @@ HOTEND
 Text GLabel 8400 1150 2    60   Input ~ 0
 RESET
 $Comp
-L R R3
+L fabrikator2mini-mk2-rescue:R R3
 U 1 1 5A676194
 P 1050 1300
 F 0 "R3" V 1130 1300 50  0000 C CNN
@@ -241,7 +209,7 @@ F 3 "" H 1050 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L fabrikator2mini-mk2-rescue:R R1
 U 1 1 5A676201
 P 1450 1100
 F 0 "R1" V 1530 1100 50  0000 C CNN
@@ -252,7 +220,7 @@ F 3 "" H 1450 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L fabrikator2mini-mk2-rescue:R R5
 U 1 1 5A676228
 P 1450 1350
 F 0 "R5" V 1530 1350 50  0000 C CNN
@@ -263,7 +231,7 @@ F 3 "" H 1450 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L fabrikator2mini-mk2-rescue:LED D1
 U 1 1 5A676255
 P 1050 1650
 F 0 "D1" H 1050 1750 50  0000 C CNN
@@ -274,7 +242,7 @@ F 3 "" H 1050 1650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5A67659A
 P 1950 1400
 F 0 "#PWR08" H 1950 1150 50  0001 C CNN
@@ -285,7 +253,7 @@ F 3 "" H 1950 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5A676636
 P 1050 1850
 F 0 "#PWR09" H 1050 1600 50  0001 C CNN
@@ -298,7 +266,7 @@ $EndComp
 Text GLabel 1000 1100 0    60   Input ~ 0
 FAN1
 $Comp
-L R R14
+L fabrikator2mini-mk2-rescue:R R14
 U 1 1 5A677AEB
 P 1050 2950
 F 0 "R14" V 1130 2950 50  0000 C CNN
@@ -309,7 +277,7 @@ F 3 "" H 1050 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L fabrikator2mini-mk2-rescue:R R12
 U 1 1 5A677AF1
 P 1450 2750
 F 0 "R12" V 1530 2750 50  0000 C CNN
@@ -320,7 +288,7 @@ F 3 "" H 1450 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L fabrikator2mini-mk2-rescue:R R16
 U 1 1 5A677AF7
 P 1450 3000
 F 0 "R16" V 1530 3000 50  0000 C CNN
@@ -331,7 +299,7 @@ F 3 "" H 1450 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D3
+L fabrikator2mini-mk2-rescue:LED D3
 U 1 1 5A677AFD
 P 1050 3300
 F 0 "D3" H 1050 3400 50  0000 C CNN
@@ -342,7 +310,7 @@ F 3 "" H 1050 3300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5A677B03
 P 1950 3050
 F 0 "#PWR010" H 1950 2800 50  0001 C CNN
@@ -353,7 +321,7 @@ F 3 "" H 1950 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5A677B09
 P 1050 3500
 F 0 "#PWR011" H 1050 3250 50  0001 C CNN
@@ -364,7 +332,7 @@ F 3 "" H 1050 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L fabrikator2mini-mk2-rescue:R R4
 U 1 1 5A677EF2
 P 3250 1300
 F 0 "R4" V 3330 1300 50  0000 C CNN
@@ -375,7 +343,7 @@ F 3 "" H 3250 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L fabrikator2mini-mk2-rescue:R R2
 U 1 1 5A677EF8
 P 3650 1100
 F 0 "R2" V 3730 1100 50  0000 C CNN
@@ -386,7 +354,7 @@ F 3 "" H 3650 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L fabrikator2mini-mk2-rescue:R R6
 U 1 1 5A677EFE
 P 3650 1350
 F 0 "R6" V 3730 1350 50  0000 C CNN
@@ -397,7 +365,7 @@ F 3 "" H 3650 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D2
+L fabrikator2mini-mk2-rescue:LED D2
 U 1 1 5A677F04
 P 3250 1650
 F 0 "D2" H 3250 1750 50  0000 C CNN
@@ -408,7 +376,7 @@ F 3 "" H 3250 1650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5A677F0A
 P 4150 1400
 F 0 "#PWR012" H 4150 1150 50  0001 C CNN
@@ -419,7 +387,7 @@ F 3 "" H 4150 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5A677F10
 P 3250 1850
 F 0 "#PWR013" H 3250 1600 50  0001 C CNN
@@ -430,7 +398,7 @@ F 3 "" H 3250 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L fabrikator2mini-mk2-rescue:R R15
 U 1 1 5A677F39
 P 3250 2950
 F 0 "R15" V 3330 2950 50  0000 C CNN
@@ -441,7 +409,7 @@ F 3 "" H 3250 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L fabrikator2mini-mk2-rescue:R R13
 U 1 1 5A677F3F
 P 3650 2750
 F 0 "R13" V 3730 2750 50  0000 C CNN
@@ -452,7 +420,7 @@ F 3 "" H 3650 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L fabrikator2mini-mk2-rescue:R R17
 U 1 1 5A677F45
 P 3650 3000
 F 0 "R17" V 3730 3000 50  0000 C CNN
@@ -463,7 +431,7 @@ F 3 "" H 3650 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D4
+L fabrikator2mini-mk2-rescue:LED D4
 U 1 1 5A677F4B
 P 3250 3300
 F 0 "D4" H 3250 3400 50  0000 C CNN
@@ -474,7 +442,7 @@ F 3 "" H 3250 3300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5A677F51
 P 4150 3050
 F 0 "#PWR014" H 4150 2800 50  0001 C CNN
@@ -485,7 +453,7 @@ F 3 "" H 4150 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5A677F57
 P 3250 3500
 F 0 "#PWR015" H 3250 3250 50  0001 C CNN
@@ -526,7 +494,7 @@ Z_2A
 Text GLabel 6500 7700 0    60   Input ~ 0
 Z_2B
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5A68609D
 P 4150 6550
 F 0 "#PWR016" H 4150 6300 50  0001 C CNN
@@ -537,7 +505,7 @@ F 3 "" H 4150 6550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5A68613E
 P 4150 6750
 F 0 "#PWR017" H 4150 6500 50  0001 C CNN
@@ -554,7 +522,7 @@ ESP_RX
 Text GLabel 4150 6950 0    60   Input ~ 0
 ESP_TX
 $Comp
-L +3.3V #PWR018
+L power:+3.3V #PWR018
 U 1 1 5A686C7B
 P 4150 7050
 F 0 "#PWR018" H 4150 6900 50  0001 C CNN
@@ -577,7 +545,7 @@ FAN1_PWR
 Text GLabel 5350 6900 0    60   Input ~ 0
 HOTEND_PWR
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5A68AAAD
 P 5400 6650
 F 0 "#PWR019" H 5400 6400 50  0001 C CNN
@@ -592,18 +560,18 @@ HOTEND_SENSE
 Text GLabel 5400 6750 0    60   Input ~ 0
 END_Y
 $Comp
-L VCC #PWR020
+L power:VCC #PWR020
 U 1 1 5A68ED6D
-P 5100 6000
-F 0 "#PWR020" H 5100 5850 50  0001 C CNN
-F 1 "VCC" H 5100 6150 50  0000 C CNN
-F 2 "" H 5100 6000 50  0000 C CNN
-F 3 "" H 5100 6000 50  0000 C CNN
-	1    5100 6000
+P 5400 6250
+F 0 "#PWR020" H 5400 6100 50  0001 C CNN
+F 1 "VCC" H 5400 6400 50  0000 C CNN
+F 2 "" H 5400 6250 50  0000 C CNN
+F 3 "" H 5400 6250 50  0000 C CNN
+	1    5400 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR021
+L power:VCC #PWR021
 U 1 1 5A68F1EB
 P 5350 7600
 F 0 "#PWR021" H 5350 7450 50  0001 C CNN
@@ -618,7 +586,7 @@ USB1
 Text GLabel 7000 1650 0    60   Input ~ 0
 USB2
 $Comp
-L R R22
+L fabrikator2mini-mk2-rescue:R R22
 U 1 1 5A6A131F
 P 1350 4700
 F 0 "R22" V 1430 4700 50  0000 C CNN
@@ -629,7 +597,7 @@ F 3 "" H 1350 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L fabrikator2mini-mk2-rescue:C C5
 U 1 1 5A6A13A4
 P 1350 5100
 F 0 "C5" H 1375 5200 50  0000 L CNN
@@ -640,7 +608,7 @@ F 3 "" H 1350 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR022
+L power:+3.3V #PWR022
 U 1 1 5A6A1AB6
 P 1350 4500
 F 0 "#PWR022" H 1350 4350 50  0001 C CNN
@@ -655,7 +623,7 @@ HOTEND_SENSE
 Text GLabel 2350 4900 0    60   Input ~ 0
 BED_SENSE
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5A6A297B
 P 1350 5350
 F 0 "#PWR023" H 1350 5100 50  0001 C CNN
@@ -666,7 +634,7 @@ F 3 "" H 1350 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L fabrikator2mini-mk2-rescue:R R23
 U 1 1 5A6A4196
 P 2400 4700
 F 0 "R23" V 2480 4700 50  0000 C CNN
@@ -677,7 +645,7 @@ F 3 "" H 2400 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L fabrikator2mini-mk2-rescue:C C6
 U 1 1 5A6A419C
 P 2400 5100
 F 0 "C6" H 2425 5200 50  0000 L CNN
@@ -688,7 +656,7 @@ F 3 "" H 2400 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR024
+L power:+3.3V #PWR024
 U 1 1 5A6A41A8
 P 2400 4500
 F 0 "#PWR024" H 2400 4350 50  0001 C CNN
@@ -699,7 +667,7 @@ F 3 "" H 2400 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5A6A41B3
 P 2400 5350
 F 0 "#PWR025" H 2400 5100 50  0001 C CNN
@@ -712,7 +680,7 @@ $EndComp
 Text GLabel 4150 7250 0    60   Input ~ 0
 END_Z
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 5A6A4F47
 P 4150 7350
 F 0 "#PWR026" H 4150 7100 50  0001 C CNN
@@ -725,7 +693,7 @@ $EndComp
 Text GLabel 4150 7550 0    60   Input ~ 0
 HEAT_BED_PWR
 $Comp
-L VCC #PWR027
+L power:VCC #PWR027
 U 1 1 5A6A5721
 P 4150 7650
 F 0 "#PWR027" H 4150 7500 50  0001 C CNN
@@ -739,62 +707,18 @@ Text GLabel 4150 6350 0    60   Input ~ 0
 FAN2_PWR
 NoConn ~ 7850 3050
 $Comp
-L Jumper_NC_Dual JP1
-U 1 1 5A6BA633
-P 5400 6000
-F 0 "JP1" H 5450 5900 50  0000 L CNN
-F 1 "FAN1 PWR SEL" H 5400 6100 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5400 6000 50  0001 C CNN
-F 3 "" H 5400 6000 50  0000 C CNN
-	1    5400 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR028
-U 1 1 5A6BA9E4
-P 5700 6000
-F 0 "#PWR028" H 5700 5850 50  0001 C CNN
-F 1 "+12V" H 5700 6140 50  0000 C CNN
-F 2 "" H 5700 6000 50  0000 C CNN
-F 3 "" H 5700 6000 50  0000 C CNN
-	1    5700 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR029
+L power:VCC #PWR029
 U 1 1 5A6BBDFB
-P 3850 6000
-F 0 "#PWR029" H 3850 5850 50  0001 C CNN
-F 1 "VCC" H 3850 6150 50  0000 C CNN
-F 2 "" H 3850 6000 50  0000 C CNN
-F 3 "" H 3850 6000 50  0000 C CNN
-	1    3850 6000
+P 4150 6250
+F 0 "#PWR029" H 4150 6100 50  0001 C CNN
+F 1 "VCC" H 4150 6400 50  0000 C CNN
+F 2 "" H 4150 6250 50  0000 C CNN
+F 3 "" H 4150 6250 50  0000 C CNN
+	1    4150 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper_NC_Dual JP2
-U 1 1 5A6BBE01
-P 4150 6000
-F 0 "JP2" H 4200 5900 50  0000 L CNN
-F 1 "FAN2 PWR SEL" H 4150 6100 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4150 6000 50  0001 C CNN
-F 3 "" H 4150 6000 50  0000 C CNN
-	1    4150 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR030
-U 1 1 5A6BBE07
-P 4450 6000
-F 0 "#PWR030" H 4450 5850 50  0001 C CNN
-F 1 "+12V" H 4450 6140 50  0000 C CNN
-F 2 "" H 4450 6000 50  0000 C CNN
-F 3 "" H 4450 6000 50  0000 C CNN
-	1    4450 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L +3.3V #PWR031
+L power:+3.3V #PWR031
 U 1 1 5A6C6B96
 P 6500 5800
 F 0 "#PWR031" H 6500 5650 50  0001 C CNN
@@ -805,7 +729,7 @@ F 3 "" H 6500 5800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5A6C6C79
 P 6500 6100
 F 0 "#PWR032" H 6500 5850 50  0001 C CNN
@@ -820,7 +744,7 @@ SCL
 Text GLabel 6500 6000 0    60   Input ~ 0
 SDA
 $Comp
-L R R24
+L fabrikator2mini-mk2-rescue:R R24
 U 1 1 5A6C9D5D
 P 10500 5900
 F 0 "R24" V 10580 5900 50  0000 C CNN
@@ -831,7 +755,7 @@ F 3 "" H 10500 5900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R25
+L fabrikator2mini-mk2-rescue:R R25
 U 1 1 5A6C9E82
 P 10500 6000
 F 0 "R25" V 10580 6000 50  0000 C CNN
@@ -842,7 +766,7 @@ F 3 "" H 10500 6000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5A6C9FD5
 P 9850 6350
 F 0 "#PWR033" H 9850 6100 50  0001 C CNN
@@ -853,7 +777,7 @@ F 3 "" H 9850 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5A6CA808
 P 9750 6350
 F 0 "#PWR034" H 9750 6100 50  0001 C CNN
@@ -864,7 +788,7 @@ F 3 "" H 9750 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR035
+L power:+5V #PWR035
 U 1 1 5A6CDE48
 P 10200 5650
 F 0 "#PWR035" H 10200 5500 50  0001 C CNN
@@ -879,7 +803,7 @@ USB1
 Text GLabel 10850 5900 2    60   Input ~ 0
 USB2
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5A6D056D
 P 8900 3300
 F 0 "#PWR036" H 8900 3050 50  0001 C CNN
@@ -892,7 +816,7 @@ $EndComp
 Text GLabel 8900 3200 2    60   Input ~ 0
 RESET
 $Comp
-L CP1 C7
+L fabrikator2mini-mk2-rescue:CP1 C7
 U 1 1 5A6D3A77
 P 3000 6600
 F 0 "C7" H 3025 6700 50  0000 L CNN
@@ -903,7 +827,7 @@ F 3 "" H 3000 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5A6D3CF6
 P 3100 6850
 F 0 "#PWR037" H 3100 6600 50  0001 C CNN
@@ -914,7 +838,7 @@ F 3 "" H 3100 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L fabrikator2mini-mk2-rescue:C C8
 U 1 1 5A6D4F8D
 P 3200 6600
 F 0 "C8" H 3225 6700 50  0000 L CNN
@@ -925,7 +849,7 @@ F 3 "" H 3200 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L fabrikator2mini-mk2-rescue:R R18
 U 1 1 5A6D8682
 P 7850 4350
 F 0 "R18" V 7930 4350 50  0000 C CNN
@@ -936,7 +860,7 @@ F 3 "" H 7850 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1
+L fabrikator2mini-mk2-rescue:C C1
 U 1 1 5A6D8688
 P 7850 4750
 F 0 "C1" H 7875 4850 50  0000 L CNN
@@ -947,7 +871,7 @@ F 3 "" H 7850 4750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR038
+L power:+3.3V #PWR038
 U 1 1 5A6D868E
 P 7850 4100
 F 0 "#PWR038" H 7850 3950 50  0001 C CNN
@@ -958,7 +882,7 @@ F 3 "" H 7850 4100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5A6D8696
 P 7850 4950
 F 0 "#PWR039" H 7850 4700 50  0001 C CNN
@@ -969,7 +893,7 @@ F 3 "" H 7850 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R19
+L fabrikator2mini-mk2-rescue:R R19
 U 1 1 5A6D8982
 P 8750 4350
 F 0 "R19" V 8830 4350 50  0000 C CNN
@@ -980,7 +904,7 @@ F 3 "" H 8750 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2
+L fabrikator2mini-mk2-rescue:C C2
 U 1 1 5A6D8988
 P 8750 4750
 F 0 "C2" H 8775 4850 50  0000 L CNN
@@ -991,7 +915,7 @@ F 3 "" H 8750 4750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR040
+L power:+3.3V #PWR040
 U 1 1 5A6D898E
 P 8750 4100
 F 0 "#PWR040" H 8750 3950 50  0001 C CNN
@@ -1002,7 +926,7 @@ F 3 "" H 8750 4100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5A6D8996
 P 8750 4950
 F 0 "#PWR041" H 8750 4700 50  0001 C CNN
@@ -1013,7 +937,7 @@ F 3 "" H 8750 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R20
+L fabrikator2mini-mk2-rescue:R R20
 U 1 1 5A6D8C48
 P 9700 4300
 F 0 "R20" V 9780 4300 50  0000 C CNN
@@ -1024,7 +948,7 @@ F 3 "" H 9700 4300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C3
+L fabrikator2mini-mk2-rescue:C C3
 U 1 1 5A6D8C4E
 P 9700 4700
 F 0 "C3" H 9725 4800 50  0000 L CNN
@@ -1035,7 +959,7 @@ F 3 "" H 9700 4700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR042
+L power:+3.3V #PWR042
 U 1 1 5A6D8C54
 P 9700 4050
 F 0 "#PWR042" H 9700 3900 50  0001 C CNN
@@ -1046,7 +970,7 @@ F 3 "" H 9700 4050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 5A6D8C5C
 P 9700 4900
 F 0 "#PWR043" H 9700 4650 50  0001 C CNN
@@ -1063,7 +987,7 @@ END_Y
 Text GLabel 9650 4500 0    60   Input ~ 0
 END_Z
 $Comp
-L R R7
+L fabrikator2mini-mk2-rescue:R R7
 U 1 1 5A6D9C84
 P 6850 1850
 F 0 "R7" V 6930 1850 50  0000 C CNN
@@ -1082,7 +1006,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 850  8400 850 
 Wire Wire Line
-	8400 850  8400 950 
+	8400 850  8400 900 
 Wire Wire Line
 	8400 950  8350 950 
 Wire Wire Line
@@ -1169,14 +1093,14 @@ Wire Wire Line
 Wire Wire Line
 	8350 1150 8400 1150
 Wire Wire Line
-	1000 1100 1300 1100
+	1000 1100 1050 1100
 Wire Wire Line
 	1050 1150 1050 1100
 Connection ~ 1050 1100
 Wire Wire Line
 	1600 1100 1650 1100
 Wire Wire Line
-	1950 1300 1950 1400
+	1950 1300 1950 1350
 Wire Wire Line
 	1600 1350 1950 1350
 Connection ~ 1950 1350
@@ -1194,14 +1118,14 @@ Wire Wire Line
 Wire Wire Line
 	1950 850  2000 850 
 Wire Wire Line
-	1000 2750 1300 2750
+	1000 2750 1050 2750
 Wire Wire Line
 	1050 2800 1050 2750
 Connection ~ 1050 2750
 Wire Wire Line
 	1600 2750 1650 2750
 Wire Wire Line
-	1950 2950 1950 3050
+	1950 2950 1950 3000
 Wire Wire Line
 	1600 3000 1950 3000
 Connection ~ 1950 3000
@@ -1219,14 +1143,14 @@ Wire Wire Line
 Wire Wire Line
 	1950 2500 2000 2500
 Wire Wire Line
-	3200 1100 3500 1100
+	3200 1100 3250 1100
 Wire Wire Line
 	3250 1150 3250 1100
 Connection ~ 3250 1100
 Wire Wire Line
 	3800 1100 3850 1100
 Wire Wire Line
-	4150 1300 4150 1400
+	4150 1300 4150 1350
 Wire Wire Line
 	3800 1350 4150 1350
 Connection ~ 4150 1350
@@ -1244,14 +1168,14 @@ Wire Wire Line
 Wire Wire Line
 	4150 850  4200 850 
 Wire Wire Line
-	3200 2750 3500 2750
+	3200 2750 3250 2750
 Wire Wire Line
 	3250 2800 3250 2750
 Connection ~ 3250 2750
 Wire Wire Line
 	3800 2750 3850 2750
 Wire Wire Line
-	4150 2950 4150 3050
+	4150 2950 4150 3000
 Wire Wire Line
 	3800 3000 4150 3000
 Connection ~ 4150 3000
@@ -1311,21 +1235,21 @@ Wire Wire Line
 Wire Wire Line
 	5400 7450 5450 7450
 Wire Wire Line
-	1350 4850 1350 4950
+	1350 4850 1350 4900
 Connection ~ 1350 4900
 Wire Wire Line
 	1350 5250 1350 5350
 Wire Wire Line
 	1350 4500 1350 4550
 Wire Wire Line
-	2350 4900 2600 4900
+	2350 4900 2400 4900
 Wire Wire Line
-	2400 4850 2400 4950
+	2400 4850 2400 4900
 Connection ~ 2400 4900
 Wire Wire Line
 	2600 5000 2600 5300
 Wire Wire Line
-	2400 5250 2400 5350
+	2400 5250 2400 5300
 Wire Wire Line
 	2600 5300 2400 5300
 Connection ~ 2400 5300
@@ -1348,16 +1272,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 3100 7750 3050
 Wire Wire Line
-	5100 6000 5150 6000
-Wire Wire Line
-	5650 6000 5700 6000
-Wire Wire Line
-	3850 6000 3900 6000
-Wire Wire Line
-	4400 6000 4450 6000
-Wire Wire Line
-	4150 6250 4150 6100
-Wire Wire Line
 	6500 5800 6550 5800
 Wire Wire Line
 	6550 5900 6500 5900
@@ -1366,9 +1280,9 @@ Wire Wire Line
 Wire Wire Line
 	6550 6100 6500 6100
 Wire Wire Line
-	10150 6000 10350 6000
+	10150 6000 10300 6000
 Wire Wire Line
-	10150 5900 10350 5900
+	10150 5900 10300 5900
 Wire Wire Line
 	9750 6300 9750 6350
 Wire Wire Line
@@ -1376,7 +1290,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 5700 10200 5650
 Wire Wire Line
-	10650 5900 10850 5900
+	10650 5900 10700 5900
 Wire Wire Line
 	10850 6000 10650 6000
 Wire Wire Line
@@ -1388,11 +1302,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 6750 3000 6800
 Wire Wire Line
-	3000 6400 3200 6400
+	3000 6400 3100 6400
 Wire Wire Line
 	3200 6400 3200 6450
 Wire Wire Line
-	3000 6800 3200 6800
+	3000 6800 3100 6800
 Wire Wire Line
 	3200 6800 3200 6750
 Wire Wire Line
@@ -1402,28 +1316,28 @@ Wire Wire Line
 	3100 6350 3100 6400
 Connection ~ 3100 6400
 Wire Wire Line
-	7850 4500 7850 4600
+	7850 4500 7850 4550
 Connection ~ 7850 4550
 Wire Wire Line
 	7850 4900 7850 4950
 Wire Wire Line
-	7850 4100 7850 4200
+	7850 4100 7850 4150
 Wire Wire Line
-	8750 4500 8750 4600
+	8750 4500 8750 4550
 Connection ~ 8750 4550
 Wire Wire Line
 	8750 4900 8750 4950
 Wire Wire Line
-	8750 4100 8750 4200
+	8750 4100 8750 4150
 Wire Wire Line
-	9700 4450 9700 4550
+	9700 4450 9700 4500
 Connection ~ 9700 4500
 Wire Wire Line
 	9700 4850 9700 4900
 Wire Wire Line
-	9700 4050 9700 4150
+	9700 4050 9700 4100
 $Comp
-L R R9
+L fabrikator2mini-mk2-rescue:R R9
 U 1 1 5A6DC4E6
 P 6850 2050
 F 0 "R9" V 6930 2050 50  0000 C CNN
@@ -1434,7 +1348,7 @@ F 3 "" H 6850 2050 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R8
+L fabrikator2mini-mk2-rescue:R R8
 U 1 1 5A6DC646
 P 6850 1950
 F 0 "R8" V 6930 1950 50  0000 C CNN
@@ -1445,7 +1359,7 @@ F 3 "" H 6850 1950 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R10
+L fabrikator2mini-mk2-rescue:R R10
 U 1 1 5A6DD7ED
 P 8550 2250
 F 0 "R10" V 8630 2250 50  0000 C CNN
@@ -1456,7 +1370,7 @@ F 3 "" H 8550 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L fabrikator2mini-mk2-rescue:R R11
 U 1 1 5A6DD918
 P 8550 2350
 F 0 "R11" V 8630 2350 50  0000 C CNN
@@ -1483,11 +1397,11 @@ F0 "power regulators" 60
 F1 "power-regulators.sch" 60
 $EndSheet
 Wire Wire Line
-	7800 4550 8000 4550
+	7800 4550 7850 4550
 Wire Wire Line
-	8700 4550 8900 4550
+	8700 4550 8750 4550
 Wire Wire Line
-	9650 4500 9850 4500
+	9650 4500 9700 4500
 Wire Wire Line
 	6650 1850 6700 1850
 Wire Wire Line
@@ -1495,7 +1409,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2050 6700 2050
 $Comp
-L CPDT6-5V4 U2
+L custom:CPDT6-5V4 U2
 U 1 1 5A70522B
 P 5900 4300
 F 0 "U2" V 5650 4100 60  0000 C CNN
@@ -1506,7 +1420,7 @@ F 3 "" H 5900 4300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 5A7053AA
 P 5900 4700
 F 0 "#PWR044" H 5900 4450 50  0001 C CNN
@@ -1535,7 +1449,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3900 6000 3950
 $Comp
-L CPDT6-5V4 U3
+L custom:CPDT6-5V4 U3
 U 1 1 5A70668D
 P 6550 4300
 F 0 "U3" V 6300 4100 60  0000 C CNN
@@ -1550,7 +1464,7 @@ HOTEND_SENSE
 Text GLabel 6000 4700 3    60   Input ~ 0
 BTN1
 $Comp
-L R R21
+L fabrikator2mini-mk2-rescue:R R21
 U 1 1 5A707093
 P 10600 4350
 F 0 "R21" V 10680 4350 50  0000 C CNN
@@ -1561,7 +1475,7 @@ F 3 "" H 10600 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C4
+L fabrikator2mini-mk2-rescue:C C4
 U 1 1 5A707099
 P 10600 4750
 F 0 "C4" H 10625 4850 50  0000 L CNN
@@ -1572,7 +1486,7 @@ F 3 "" H 10600 4750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR045
+L power:+3.3V #PWR045
 U 1 1 5A70709F
 P 10600 4100
 F 0 "#PWR045" H 10600 3950 50  0001 C CNN
@@ -1583,7 +1497,7 @@ F 3 "" H 10600 4100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L power:GND #PWR046
 U 1 1 5A7070A5
 P 10600 4950
 F 0 "#PWR046" H 10600 4700 50  0001 C CNN
@@ -1594,14 +1508,14 @@ F 3 "" H 10600 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10600 4500 10600 4600
+	10600 4500 10600 4550
 Connection ~ 10600 4550
 Wire Wire Line
 	10600 4900 10600 4950
 Wire Wire Line
-	10600 4100 10600 4200
+	10600 4100 10600 4150
 Wire Wire Line
-	10550 4550 10750 4550
+	10550 4550 10600 4550
 Text GLabel 10550 4550 0    60   Input ~ 0
 BTN1
 Wire Wire Line
@@ -1613,7 +1527,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4650 6450 4700
 $Comp
-L GND #PWR047
+L power:GND #PWR047
 U 1 1 5A707E1D
 P 6550 4700
 F 0 "#PWR047" H 6550 4450 50  0001 C CNN
@@ -1636,7 +1550,7 @@ Wire Wire Line
 Text GLabel 7650 5900 0    60   Input ~ 0
 JTCK
 $Comp
-L GND #PWR048
+L power:GND #PWR048
 U 1 1 5A70A80F
 P 7650 6000
 F 0 "#PWR048" H 7650 5750 50  0001 C CNN
@@ -1647,7 +1561,7 @@ F 3 "" H 7650 6000 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR049
+L power:+3.3V #PWR049
 U 1 1 5A70A90A
 P 7650 5800
 F 0 "#PWR049" H 7650 5650 50  0001 C CNN
@@ -1738,9 +1652,9 @@ USB_D+
 Wire Wire Line
 	3750 4650 3850 4650
 Wire Wire Line
-	3850 4550 3850 4850
+	3850 4550 3850 4650
 $Comp
-L Fuse_Small F1
+L fabrikator2mini-mk2-rescue:Fuse_Small F1
 U 1 1 5A71178D
 P 4000 4550
 F 0 "F1" H 4000 4490 50  0000 C CNN
@@ -1754,7 +1668,7 @@ Wire Wire Line
 	3850 4550 3900 4550
 Connection ~ 3850 4650
 $Comp
-L GND #PWR050
+L power:GND #PWR050
 U 1 1 5A712275
 P 4350 5350
 F 0 "#PWR050" H 4350 5100 50  0001 C CNN
@@ -1773,7 +1687,7 @@ SD_DAT0
 Text GLabel 8800 5900 0    60   Input ~ 0
 SD_CMD
 $Comp
-L +3.3V #PWR051
+L power:+3.3V #PWR051
 U 1 1 5A714CFA
 P 8800 5800
 F 0 "#PWR051" H 8800 5650 50  0001 C CNN
@@ -1784,7 +1698,7 @@ F 3 "" H 8800 5800 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR052
+L power:GND #PWR052
 U 1 1 5A714DC5
 P 8800 6200
 F 0 "#PWR052" H 8800 5950 50  0001 C CNN
@@ -1805,7 +1719,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 6200 8800 6200
 $Comp
-L R R26
+L fabrikator2mini-mk2-rescue:R R26
 U 1 1 5A716631
 P 10700 5700
 F 0 "R26" V 10780 5700 50  0000 C CNN
@@ -1816,7 +1730,7 @@ F 3 "" H 10700 5700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR053
+L power:+5V #PWR053
 U 1 1 5A716742
 P 10700 5500
 F 0 "#PWR053" H 10700 5350 50  0001 C CNN
@@ -1827,7 +1741,7 @@ F 3 "" H 10700 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG J1
+L fabrikator2mini-mk2-rescue:USB_OTG J1
 U 1 1 5A7B7D10
 P 9850 5900
 F 0 "J1" H 9650 6350 50  0000 L CNN
@@ -1843,7 +1757,7 @@ Connection ~ 10700 5900
 Wire Wire Line
 	10700 5500 10700 5550
 $Comp
-L R R40
+L fabrikator2mini-mk2-rescue:R R40
 U 1 1 5A7B8C7B
 P 4350 5100
 F 0 "R40" V 4430 5100 50  0000 C CNN
@@ -1854,7 +1768,7 @@ F 3 "" H 4350 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR054
+L power:VCC #PWR054
 U 1 1 5A712404
 P 4600 4500
 F 0 "#PWR054" H 4600 4350 50  0001 C CNN
@@ -1865,7 +1779,7 @@ F 3 "" H 4600 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener D5
+L fabrikator2mini-mk2-rescue:D_Zener D5
 U 1 1 5A7B920C
 P 4600 4750
 F 0 "D5" H 4600 4850 50  0000 C CNN
@@ -1876,26 +1790,26 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4350 4850 4350 4950
+	4350 4850 4350 4900
 Wire Wire Line
 	4350 4900 4600 4900
 Connection ~ 4350 4900
 Wire Wire Line
-	4550 4550 5150 4550
+	4550 4550 4600 4550
 Wire Wire Line
-	4600 4500 4600 4600
+	4600 4500 4600 4550
 Connection ~ 4600 4550
 Wire Wire Line
-	4350 5250 4350 5350
+	4350 5250 4350 5300
 Wire Wire Line
-	3900 5300 5150 5300
+	3900 5300 4350 5300
 Wire Wire Line
 	3900 4750 3900 5300
 Connection ~ 4350 5300
 Wire Wire Line
 	4100 4550 4150 4550
 $Comp
-L Conn_01x04 J5
+L fabrikator2mini-mk2-rescue:Conn_01x04 J5
 U 1 1 5A7E181E
 P 6750 5900
 F 0 "J5" H 6750 6100 50  0000 C CNN
@@ -1906,7 +1820,7 @@ F 3 "" H 6750 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J6
+L fabrikator2mini-mk2-rescue:Conn_01x06 J6
 U 1 1 5A7E1951
 P 7900 6000
 F 0 "J6" H 7900 6300 50  0000 C CNN
@@ -1917,7 +1831,7 @@ F 3 "" H 7900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J14
+L fabrikator2mini-mk2-rescue:Conn_01x05 J14
 U 1 1 5A7E1A98
 P 6750 7500
 F 0 "J14" H 6750 7800 50  0000 C CNN
@@ -1928,7 +1842,7 @@ F 3 "" H 6750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J8
+L fabrikator2mini-mk2-rescue:Conn_01x02 J8
 U 1 1 5A7E1BEE
 P 4400 6250
 F 0 "J8" H 4400 6350 50  0000 C CNN
@@ -1939,7 +1853,7 @@ F 3 "" H 4400 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x12 J12
+L fabrikator2mini-mk2-rescue:Conn_01x12 J12
 U 1 1 5A7E1711
 P 5650 7050
 F 0 "J12" H 5650 7650 50  0000 C CNN
@@ -1958,7 +1872,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 6850 5400 6850
 Wire Wire Line
-	5400 6850 5400 6950
+	5400 6850 5400 6900
 Wire Wire Line
 	5400 6950 5450 6950
 Wire Wire Line
@@ -1973,12 +1887,12 @@ Wire Wire Line
 Wire Wire Line
 	5450 7350 5400 7350
 Wire Wire Line
-	5400 7550 5400 7650
+	5400 7550 5400 7600
 Wire Wire Line
 	5400 7600 5350 7600
 Connection ~ 5400 7600
 $Comp
-L Conn_01x06 J10
+L fabrikator2mini-mk2-rescue:Conn_01x06 J10
 U 1 1 5A7E4A9C
 P 4400 6850
 F 0 "J10" H 4400 7150 50  0000 C CNN
@@ -1989,7 +1903,7 @@ F 3 "" H 4400 6850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J13
+L fabrikator2mini-mk2-rescue:Conn_01x02 J13
 U 1 1 5A7E4DBB
 P 4400 7250
 F 0 "J13" H 4400 7350 50  0000 C CNN
@@ -2000,7 +1914,7 @@ F 3 "" H 4400 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J15
+L fabrikator2mini-mk2-rescue:Conn_01x02 J15
 U 1 1 5A7E51D5
 P 4400 7550
 F 0 "J15" H 4400 7650 50  0000 C CNN
@@ -2011,7 +1925,7 @@ F 3 "" H 4400 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J9
+L fabrikator2mini-mk2-rescue:Conn_01x04 J9
 U 1 1 5A7E611B
 P 6750 6400
 F 0 "J9" H 6750 6600 50  0000 C CNN
@@ -2022,7 +1936,7 @@ F 3 "" H 6750 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J11
+L fabrikator2mini-mk2-rescue:Conn_01x04 J11
 U 1 1 5A7E62E2
 P 6750 6900
 F 0 "J11" H 6750 7100 50  0000 C CNN
@@ -2033,7 +1947,7 @@ F 3 "" H 6750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J7
+L fabrikator2mini-mk2-rescue:Conn_01x05 J7
 U 1 1 5A7E6DE4
 P 9050 6000
 F 0 "J7" H 9050 6300 50  0000 C CNN
@@ -2044,7 +1958,7 @@ F 3 "" H 9050 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J4
+L fabrikator2mini-mk2-rescue:Conn_01x02 J4
 U 1 1 5A7E7562
 P 2800 4900
 F 0 "J4" H 2800 5000 50  0000 C CNN
@@ -2055,7 +1969,7 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J3
+L fabrikator2mini-mk2-rescue:Conn_01x03 J3
 U 1 1 5A7E79B9
 P 3550 4750
 F 0 "J3" H 3550 4950 50  0000 C CNN
@@ -2066,7 +1980,7 @@ F 3 "" H 3550 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J2
+L fabrikator2mini-mk2-rescue:Conn_01x02 J2
 U 1 1 5A7E8361
 P 8650 3300
 F 0 "J2" H 8650 3400 50  0000 C CNN
@@ -2077,7 +1991,7 @@ F 3 "" H 8650 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR055
+L power:GND #PWR055
 U 1 1 5AC3A669
 P 8900 3650
 F 0 "#PWR055" H 8900 3400 50  0001 C CNN
@@ -2094,7 +2008,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3550 8900 3550
 $Comp
-L Conn_01x02 J16
+L fabrikator2mini-mk2-rescue:Conn_01x02 J16
 U 1 1 5AC3A672
 P 8650 3650
 F 0 "J16" H 8650 3750 50  0000 C CNN
@@ -2105,7 +2019,7 @@ F 3 "" H 8650 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR056
+L power:+3.3V #PWR056
 U 1 1 5AC3B7EC
 P 3100 6350
 F 0 "#PWR056" H 3100 6200 50  0001 C CNN
@@ -2120,7 +2034,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4750 3900 4750
 $Comp
-L R R42
+L fabrikator2mini-mk2-rescue:R R42
 U 1 1 5AC5248B
 P 8150 4350
 F 0 "R42" V 8230 4350 50  0000 C CNN
@@ -2131,7 +2045,7 @@ F 3 "" H 8150 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L fabrikator2mini-mk2-rescue:LED D7
 U 1 1 5AC52491
 P 8150 4700
 F 0 "D7" H 8150 4800 50  0000 C CNN
@@ -2144,7 +2058,7 @@ $EndComp
 Wire Wire Line
 	8150 4500 8150 4550
 $Comp
-L R R43
+L fabrikator2mini-mk2-rescue:R R43
 U 1 1 5AC52620
 P 9050 4350
 F 0 "R43" V 9130 4350 50  0000 C CNN
@@ -2155,7 +2069,7 @@ F 3 "" H 9050 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D8
+L fabrikator2mini-mk2-rescue:LED D8
 U 1 1 5AC52626
 P 9050 4700
 F 0 "D8" H 9050 4800 50  0000 C CNN
@@ -2168,7 +2082,7 @@ $EndComp
 Wire Wire Line
 	9050 4500 9050 4550
 $Comp
-L R R41
+L fabrikator2mini-mk2-rescue:R R41
 U 1 1 5AC528E9
 P 10000 4300
 F 0 "R41" V 10080 4300 50  0000 C CNN
@@ -2179,7 +2093,7 @@ F 3 "" H 10000 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L fabrikator2mini-mk2-rescue:LED D6
 U 1 1 5AC528EF
 P 10000 4650
 F 0 "D6" H 10000 4750 50  0000 C CNN
@@ -2192,7 +2106,7 @@ $EndComp
 Wire Wire Line
 	10000 4450 10000 4500
 $Comp
-L R R44
+L fabrikator2mini-mk2-rescue:R R44
 U 1 1 5AC530E8
 P 10900 4350
 F 0 "R44" V 10980 4350 50  0000 C CNN
@@ -2203,7 +2117,7 @@ F 3 "" H 10900 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D9
+L fabrikator2mini-mk2-rescue:LED D9
 U 1 1 5AC530EE
 P 10900 4700
 F 0 "D9" H 10900 4800 50  0000 C CNN
@@ -2260,7 +2174,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4850 10000 4800
 $Comp
-L Si7145DP Q5
+L custom:Si7145DP Q5
 U 1 1 5AC56805
 P 4350 4650
 F 0 "Q5" H 4550 4725 50  0000 L CNN
@@ -2271,7 +2185,7 @@ F 3 "" H 4350 4650 50  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PSMN2R4-30MLD Q1
+L custom:PSMN2R4-30MLD Q1
 U 1 1 5AC58761
 P 1850 1100
 F 0 "Q1" H 2050 1175 50  0000 L CNN
@@ -2282,7 +2196,7 @@ F 3 "" H 1850 1100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSMN2R4-30MLD Q2
+L custom:PSMN2R4-30MLD Q2
 U 1 1 5AC588DD
 P 4050 1100
 F 0 "Q2" H 4250 1175 50  0000 L CNN
@@ -2293,7 +2207,7 @@ F 3 "" H 4050 1100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSMN2R4-30MLD Q3
+L custom:PSMN2R4-30MLD Q3
 U 1 1 5AC58A33
 P 1850 2750
 F 0 "Q3" H 2050 2825 50  0000 L CNN
@@ -2304,7 +2218,7 @@ F 3 "" H 1850 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSMN2R4-30MLD Q4
+L custom:PSMN2R4-30MLD Q4
 U 1 1 5AC58B94
 P 4050 2750
 F 0 "Q4" H 4250 2825 50  0000 L CNN
@@ -2315,7 +2229,7 @@ F 3 "" H 4050 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J17
+L fabrikator2mini-mk2-rescue:Conn_01x02 J17
 U 1 1 5AC708BC
 P 5650 6250
 F 0 "J17" H 5650 6350 50  0000 C CNN
@@ -2326,15 +2240,13 @@ F 3 "" H 5650 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 6100 5400 6250
-Wire Wire Line
 	5400 6250 5450 6250
 Text GLabel 5400 6350 0    60   Input ~ 0
 FAN1_PWR
 Wire Wire Line
 	5400 6350 5450 6350
 $Comp
-L R R45
+L fabrikator2mini-mk2-rescue:R R45
 U 1 1 5AC72C42
 P 5550 1950
 F 0 "R45" V 5630 1950 50  0000 C CNN
@@ -2345,7 +2257,7 @@ F 3 "" H 5550 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D10
+L fabrikator2mini-mk2-rescue:LED D10
 U 1 1 5AC72C48
 P 5550 2300
 F 0 "D10" H 5550 2400 50  0000 C CNN
@@ -2358,7 +2270,7 @@ $EndComp
 Wire Wire Line
 	5550 2100 5550 2150
 $Comp
-L +3.3V #PWR057
+L power:+3.3V #PWR057
 U 1 1 5AC72CF1
 P 5550 1750
 F 0 "#PWR057" H 5550 1600 50  0001 C CNN
@@ -2373,11 +2285,9 @@ LED1
 Wire Wire Line
 	5550 1750 5550 1800
 Wire Wire Line
-	5550 2450 5550 2450
-Wire Wire Line
 	5550 2450 5550 2500
 $Comp
-L CP1 C20
+L fabrikator2mini-mk2-rescue:CP1 C20
 U 1 1 5AC73C89
 P 4850 4850
 F 0 "C20" H 4875 4950 50  0000 L CNN
@@ -2388,7 +2298,7 @@ F 3 "" H 4850 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L fabrikator2mini-mk2-rescue:C C21
 U 1 1 5AC73F93
 P 5150 4850
 F 0 "C21" H 5175 4950 50  0000 L CNN
@@ -2409,4 +2319,92 @@ Wire Wire Line
 	4850 5000 4850 5300
 Connection ~ 4850 5300
 NoConn ~ 6550 7500
+Wire Wire Line
+	8400 900  8400 950 
+Wire Wire Line
+	1050 1100 1250 1100
+Wire Wire Line
+	1950 1350 1950 1400
+Wire Wire Line
+	1250 1100 1300 1100
+Wire Wire Line
+	1050 2750 1250 2750
+Wire Wire Line
+	1950 3000 1950 3050
+Wire Wire Line
+	1250 2750 1300 2750
+Wire Wire Line
+	3250 1100 3450 1100
+Wire Wire Line
+	4150 1350 4150 1400
+Wire Wire Line
+	3450 1100 3500 1100
+Wire Wire Line
+	3250 2750 3450 2750
+Wire Wire Line
+	4150 3000 4150 3050
+Wire Wire Line
+	3450 2750 3500 2750
+Wire Wire Line
+	1350 4900 1350 4950
+Wire Wire Line
+	2400 4900 2600 4900
+Wire Wire Line
+	2400 4900 2400 4950
+Wire Wire Line
+	2400 5300 2400 5350
+Wire Wire Line
+	3100 6800 3200 6800
+Wire Wire Line
+	3100 6400 3200 6400
+Wire Wire Line
+	7850 4550 7850 4600
+Wire Wire Line
+	7850 4550 8000 4550
+Wire Wire Line
+	8750 4550 8750 4600
+Wire Wire Line
+	8750 4550 8900 4550
+Wire Wire Line
+	9700 4500 9700 4550
+Wire Wire Line
+	9700 4500 9850 4500
+Wire Wire Line
+	10600 4550 10600 4600
+Wire Wire Line
+	10600 4550 10750 4550
+Wire Wire Line
+	10300 5900 10350 5900
+Wire Wire Line
+	10300 6000 10350 6000
+Wire Wire Line
+	3850 4650 3850 4850
+Wire Wire Line
+	10700 5900 10850 5900
+Wire Wire Line
+	4350 4900 4350 4950
+Wire Wire Line
+	4600 4550 4850 4550
+Wire Wire Line
+	4600 4550 4600 4600
+Wire Wire Line
+	4350 5300 4350 5350
+Wire Wire Line
+	4350 5300 4850 5300
+Wire Wire Line
+	5400 6900 5400 6950
+Wire Wire Line
+	5400 7600 5400 7650
+Wire Wire Line
+	7850 4150 7850 4200
+Wire Wire Line
+	8750 4150 8750 4200
+Wire Wire Line
+	9700 4100 9700 4150
+Wire Wire Line
+	10600 4150 10600 4200
+Wire Wire Line
+	4850 4550 5150 4550
+Wire Wire Line
+	4850 5300 5150 5300
 $EndSCHEMATC

@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:fabrikator2mini-mk2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:ESD_Protection
+EESchema Schematic File Version 4
 LIBS:fabrikator2mini-mk2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,51 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C13
-U 1 1 5A700662
-P 1200 1450
-F 0 "C13" H 1225 1550 50  0000 L CNN
-F 1 "0.33u/35V" H 1225 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1238 1300 50  0001 C CNN
-F 3 "" H 1200 1450 50  0000 C CNN
-	1    1200 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 5A700669
-P 2100 1450
-F 0 "C14" H 2125 1550 50  0000 L CNN
-F 1 "10u/35V" H 2125 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2138 1300 50  0001 C CNN
-F 3 "" H 2100 1450 50  0000 C CNN
-	1    2100 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR092
-U 1 1 5A700670
-P 1200 1200
-F 0 "#PWR092" H 1200 1050 50  0001 C CNN
-F 1 "VCC" H 1200 1350 50  0000 C CNN
-F 2 "" H 1200 1200 50  0000 C CNN
-F 3 "" H 1200 1200 50  0000 C CNN
-	1    1200 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR093
-U 1 1 5A700676
-P 2100 1200
-F 0 "#PWR093" H 2100 1050 50  0001 C CNN
-F 1 "+12V" H 2100 1340 50  0000 C CNN
-F 2 "" H 2100 1200 50  0000 C CNN
-F 3 "" H 2100 1200 50  0000 C CNN
-	1    2100 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR094
+L power:VCC #PWR094
 U 1 1 5A700E94
 P 850 2500
 F 0 "#PWR094" H 850 2350 50  0001 C CNN
@@ -102,7 +26,7 @@ F 3 "" H 850 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR095
+L power:GND #PWR095
 U 1 1 5A700E9A
 P 1650 4100
 F 0 "#PWR095" H 1650 3850 50  0001 C CNN
@@ -113,7 +37,7 @@ F 3 "" H 1650 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L2
+L fabrikator2mini-mk2-rescue:L_Small L2
 U 1 1 5A700EA7
 P 2600 2900
 F 0 "L2" H 2630 2940 50  0000 L CNN
@@ -124,7 +48,7 @@ F 3 "" H 2600 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C15
+L fabrikator2mini-mk2-rescue:CP1 C15
 U 1 1 5A700EBC
 P 900 2700
 F 0 "C15" H 925 2800 50  0000 L CNN
@@ -135,7 +59,7 @@ F 3 "" H 900 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C18
+L fabrikator2mini-mk2-rescue:CP1 C18
 U 1 1 5A700EC3
 P 2750 3100
 F 0 "C18" H 2775 3200 50  0000 L CNN
@@ -146,7 +70,7 @@ F 3 "" H 2750 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C19
+L fabrikator2mini-mk2-rescue:CP1 C19
 U 1 1 5A700ECA
 P 2950 3100
 F 0 "C19" H 2975 3200 50  0000 L CNN
@@ -157,7 +81,7 @@ F 3 "" H 2950 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR096
+L power:+3.3V #PWR096
 U 1 1 5A700ED1
 P 3250 2900
 F 0 "#PWR096" H 3250 2750 50  0001 C CNN
@@ -168,7 +92,7 @@ F 3 "" H 3250 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R39
+L fabrikator2mini-mk2-rescue:R R39
 U 1 1 5A700ED7
 P 2350 3700
 F 0 "R39" V 2430 3700 50  0000 C CNN
@@ -179,7 +103,7 @@ F 3 "" H 2350 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR097
+L power:+3.3V #PWR097
 U 1 1 5A700EDE
 P 2550 3700
 F 0 "#PWR097" H 2550 3550 50  0001 C CNN
@@ -190,7 +114,7 @@ F 3 "" H 2550 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR098
+L power:GND #PWR098
 U 1 1 5A700EE4
 P 1000 2950
 F 0 "#PWR098" H 1000 2700 50  0001 C CNN
@@ -201,7 +125,7 @@ F 3 "" H 1000 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR099
+L power:GND #PWR099
 U 1 1 5A700EEA
 P 2850 3350
 F 0 "#PWR099" H 2850 3100 50  0001 C CNN
@@ -212,7 +136,7 @@ F 3 "" H 2850 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0100
+L power:+3.3V #PWR0100
 U 1 1 5A700EF0
 P 2200 3250
 F 0 "#PWR0100" H 2200 3100 50  0001 C CNN
@@ -225,7 +149,7 @@ $EndComp
 Wire Wire Line
 	1600 4000 1600 4050
 Wire Wire Line
-	1600 4050 1700 4050
+	1600 4050 1650 4050
 Wire Wire Line
 	1700 4050 1700 4000
 Wire Wire Line
@@ -233,15 +157,15 @@ Wire Wire Line
 Wire Wire Line
 	2200 2500 2200 2550
 Wire Wire Line
-	2150 2900 2500 2900
+	2150 2900 2200 2900
 Wire Wire Line
 	900  2850 900  2900
 Wire Wire Line
-	900  2900 1100 2900
+	900  2900 1000 2900
 Wire Wire Line
 	1100 2900 1100 2850
 Wire Wire Line
-	850  2500 1150 2500
+	850  2500 900  2500
 Wire Wire Line
 	900  2550 900  2500
 Connection ~ 900  2500
@@ -258,21 +182,20 @@ Wire Wire Line
 Wire Wire Line
 	2750 3250 2750 3300
 Wire Wire Line
-	2750 3300 2950 3300
+	2750 3300 2850 3300
 Wire Wire Line
 	2950 3300 2950 3250
 Wire Wire Line
 	2850 3350 2850 3300
 Connection ~ 2850 3300
 Wire Wire Line
-	2700 2900 3250 2900
+	2700 2900 2750 2900
 Wire Wire Line
 	2750 2950 2750 2900
 Connection ~ 2750 2900
 Wire Wire Line
 	2950 2950 2950 2900
 Connection ~ 2950 2900
-Connection ~ 3200 2900
 Wire Wire Line
 	2150 3300 2200 3300
 Wire Wire Line
@@ -285,9 +208,11 @@ Wire Wire Line
 Connection ~ 1000 2900
 NoConn ~ 1150 3700
 $Comp
-L C C17
+L fabrikator2mini-mk2-rescue:C C17
 U 1 1 5A734B53
 P 2200 2700
+AR Path="/5A734B53" Ref="C17"  Part="1" 
+AR Path="/5A70001E/5A734B53" Ref="C17"  Part="1" 
 F 0 "C17" H 2225 2800 50  0000 L CNN
 F 1 "22n/10V" H 2225 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2238 2550 50  0001 C CNN
@@ -296,9 +221,11 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L fabrikator2mini-mk2-rescue:C C16
 U 1 1 5A73A734
 P 1100 2700
+AR Path="/5A73A734" Ref="C16"  Part="1" 
+AR Path="/5A70001E/5A73A734" Ref="C16"  Part="1" 
 F 0 "C16" H 1125 2800 50  0000 L CNN
 F 1 "0.1u" H 1125 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 2550 50  0001 C CNN
@@ -307,7 +234,7 @@ F 3 "" H 1100 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TS30011 U9
+L custom:TS30011 U9
 U 1 1 5A700E8D
 P 1650 3100
 F 0 "U9" H 1400 3850 60  0000 C CNN
@@ -317,45 +244,20 @@ F 3 "" H 1600 3100 60  0001 C CNN
 	1    1650 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR0101
-U 1 1 5A79FC1D
-P 1650 1700
-F 0 "#PWR0101" H 1650 1450 50  0001 C CNN
-F 1 "GND" H 1650 1550 50  0000 C CNN
-F 2 "" H 1650 1700 50  0000 C CNN
-F 3 "" H 1650 1700 50  0000 C CNN
-	1    1650 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1200 1600 1200 1650
+	900  2500 1100 2500
 Wire Wire Line
-	1200 1650 2100 1650
+	1100 2500 1150 2500
 Wire Wire Line
-	2100 1650 2100 1600
+	1650 4050 1700 4050
 Wire Wire Line
-	1650 1550 1650 1700
-Connection ~ 1650 1650
+	2850 3300 2950 3300
 Wire Wire Line
-	1200 1200 1200 1300
+	2750 2900 2950 2900
 Wire Wire Line
-	2100 1200 2100 1300
+	2200 2900 2500 2900
 Wire Wire Line
-	1950 1250 2100 1250
-Connection ~ 2100 1250
+	1000 2900 1100 2900
 Wire Wire Line
-	1350 1250 1200 1250
-Connection ~ 1200 1250
-$Comp
-L L7812 U8
-U 1 1 5AC5787E
-P 1650 1250
-F 0 "U8" H 1500 1375 50  0000 C CNN
-F 1 "L7812" H 1650 1375 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1675 1100 50  0001 L CIN
-F 3 "" H 1650 1200 50  0001 C CNN
-	1    1650 1250
-	1    0    0    -1  
-$EndComp
+	2950 2900 3250 2900
 $EndSCHEMATC
