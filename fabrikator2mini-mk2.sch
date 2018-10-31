@@ -1839,7 +1839,7 @@ F 1 "MT_Z" V 6850 7500 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 6750 7500 50  0001 C CNN
 F 3 "" H 6750 7500 50  0001 C CNN
 	1    6750 7500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J8
@@ -1927,24 +1927,24 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 5A7E611B
-P 6750 6400
-F 0 "J9" H 6750 6600 50  0000 C CNN
-F 1 "MT_X" V 6850 6350 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6750 6400 50  0001 C CNN
-F 3 "" H 6750 6400 50  0001 C CNN
-	1    6750 6400
-	1    0    0    -1  
+P 6750 6500
+F 0 "J9" H 6750 6700 50  0000 C CNN
+F 1 "MT_X" V 6850 6450 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6750 6500 50  0001 C CNN
+F 3 "" H 6750 6500 50  0001 C CNN
+	1    6750 6500
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J11
 U 1 1 5A7E62E2
-P 6750 6900
-F 0 "J11" H 6750 7100 50  0000 C CNN
-F 1 "MT_Y" V 6850 6850 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6750 6900 50  0001 C CNN
-F 3 "" H 6750 6900 50  0001 C CNN
-	1    6750 6900
-	1    0    0    -1  
+P 6750 7000
+F 0 "J11" H 6750 7200 50  0000 C CNN
+F 1 "MT_Y" V 6850 6950 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6750 7000 50  0001 C CNN
+F 3 "" H 6750 7000 50  0001 C CNN
+	1    6750 7000
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J7
