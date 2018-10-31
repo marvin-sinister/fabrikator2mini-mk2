@@ -1659,7 +1659,7 @@ U 1 1 5A71178D
 P 4000 4550
 F 0 "F1" H 4000 4490 50  0000 C CNN
 F 1 "15A" H 4000 4610 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031-8002_Horizontal_Open" H 4000 4550 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" H 4000 4550 50  0001 C CNN
 F 3 "" H 4000 4550 50  0000 C CNN
 	1    4000 4550
 	1    0    0    -1  
