@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:fabrikator2mini-mk2-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:ESD_Protection
+EESchema Schematic File Version 4
 LIBS:fabrikator2mini-mk2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 4988 U4
+L custom:4988 U4
 U 1 1 5A6FCEDD
 P 2550 2250
 F 0 "U4" H 2550 2750 60  0000 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 2550 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4988 U5
+L custom:4988 U5
 U 1 1 5A6FCEE4
 P 5400 2250
 F 0 "U5" H 5400 2750 60  0000 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 5400 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4988 U6
+L custom:4988 U6
 U 1 1 5A6FCEEB
 P 8500 2250
 F 0 "U6" H 8500 2750 60  0000 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 8500 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4988 U7
+L custom:4988 U7
 U 1 1 5A6FCEF2
 P 2700 4850
 F 0 "U7" H 2700 5350 60  0000 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 2700 4850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L power:GND #PWR058
 U 1 1 5A6FCEF9
 P 3250 5100
 F 0 "#PWR058" H 3250 4850 50  0001 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 3250 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR059
+L power:GND #PWR059
 U 1 1 5A6FCEFF
 P 3250 4500
 F 0 "#PWR059" H 3250 4250 50  0001 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 3250 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR060
+L power:GND #PWR060
 U 1 1 5A6FCF05
 P 9050 2500
 F 0 "#PWR060" H 9050 2250 50  0001 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 9050 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 5A6FCF0B
 P 9050 1900
 F 0 "#PWR061" H 9050 1650 50  0001 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 9050 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR062
+L power:GND #PWR062
 U 1 1 5A6FCF11
 P 5950 2500
 F 0 "#PWR062" H 5950 2250 50  0001 C CNN
@@ -146,7 +114,7 @@ F 3 "" H 5950 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR063
+L power:GND #PWR063
 U 1 1 5A6FCF17
 P 5950 1900
 F 0 "#PWR063" H 5950 1650 50  0001 C CNN
@@ -157,7 +125,7 @@ F 3 "" H 5950 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR064
+L power:GND #PWR064
 U 1 1 5A6FCF1D
 P 3100 2500
 F 0 "#PWR064" H 3100 2250 50  0001 C CNN
@@ -168,7 +136,7 @@ F 3 "" H 3100 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR065
+L power:GND #PWR065
 U 1 1 5A6FCF23
 P 3100 1900
 F 0 "#PWR065" H 3100 1650 50  0001 C CNN
@@ -179,7 +147,7 @@ F 3 "" H 3100 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR066
+L power:+3.3V #PWR066
 U 1 1 5A6FCF29
 P 3100 2000
 F 0 "#PWR066" H 3100 1850 50  0001 C CNN
@@ -190,7 +158,7 @@ F 3 "" H 3100 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR067
+L power:+3.3V #PWR067
 U 1 1 5A6FCF2F
 P 5950 2000
 F 0 "#PWR067" H 5950 1850 50  0001 C CNN
@@ -201,7 +169,7 @@ F 3 "" H 5950 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR068
+L power:+3.3V #PWR068
 U 1 1 5A6FCF35
 P 9050 2000
 F 0 "#PWR068" H 9050 1850 50  0001 C CNN
@@ -212,7 +180,7 @@ F 3 "" H 9050 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR069
+L power:+3.3V #PWR069
 U 1 1 5A6FCF3B
 P 3250 4600
 F 0 "#PWR069" H 3250 4450 50  0001 C CNN
@@ -271,7 +239,7 @@ Z_2A
 Text GLabel 9050 2400 2    60   Input ~ 0
 Z_2B
 $Comp
-L CONN_02X03 P16
+L fabrikator2mini-mk2-rescue:CONN_02X03 P16
 U 1 1 5A6FCF5B
 P 1650 2100
 F 0 "P16" H 1650 2300 50  0000 C CNN
@@ -282,7 +250,7 @@ F 3 "" H 1650 900 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_02X03 P17
+L fabrikator2mini-mk2-rescue:CONN_02X03 P17
 U 1 1 5A6FCF62
 P 4500 2100
 F 0 "P17" H 4500 2300 50  0000 C CNN
@@ -293,7 +261,7 @@ F 3 "" H 4500 900 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_02X03 P18
+L fabrikator2mini-mk2-rescue:CONN_02X03 P18
 U 1 1 5A6FCF69
 P 7600 2100
 F 0 "P18" H 7600 2300 50  0000 C CNN
@@ -304,7 +272,7 @@ F 3 "" H 7600 900 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_02X03 P19
+L fabrikator2mini-mk2-rescue:CONN_02X03 P19
 U 1 1 5A6FCF70
 P 1800 4700
 F 0 "P19" H 1800 4900 50  0000 C CNN
@@ -315,7 +283,7 @@ F 3 "" H 1800 3500 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR070
+L power:+3.3V #PWR070
 U 1 1 5A6FCF77
 P 1500 4550
 F 0 "#PWR070" H 1500 4400 50  0001 C CNN
@@ -326,7 +294,7 @@ F 3 "" H 1500 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR071
+L power:+3.3V #PWR071
 U 1 1 5A6FCF7D
 P 7300 1950
 F 0 "#PWR071" H 7300 1800 50  0001 C CNN
@@ -337,7 +305,7 @@ F 3 "" H 7300 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR072
+L power:+3.3V #PWR072
 U 1 1 5A6FCF83
 P 4200 1950
 F 0 "#PWR072" H 4200 1800 50  0001 C CNN
@@ -348,7 +316,7 @@ F 3 "" H 4200 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR073
+L power:+3.3V #PWR073
 U 1 1 5A6FCF89
 P 1350 1950
 F 0 "#PWR073" H 1350 1800 50  0001 C CNN
@@ -359,7 +327,7 @@ F 3 "" H 1350 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L fabrikator2mini-mk2-rescue:R R27
 U 1 1 5A6FCF8F
 P 2000 1700
 F 0 "R27" V 2080 1700 50  0000 C CNN
@@ -370,7 +338,7 @@ F 3 "" H 2000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L fabrikator2mini-mk2-rescue:R R28
 U 1 1 5A6FCF96
 P 4850 1700
 F 0 "R28" V 4930 1700 50  0000 C CNN
@@ -381,7 +349,7 @@ F 3 "" H 4850 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L fabrikator2mini-mk2-rescue:R R29
 U 1 1 5A6FCF9D
 P 7950 1700
 F 0 "R29" V 8030 1700 50  0000 C CNN
@@ -392,7 +360,7 @@ F 3 "" H 7950 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L fabrikator2mini-mk2-rescue:R R36
 U 1 1 5A6FCFA4
 P 2150 4300
 F 0 "R36" V 2230 4300 50  0000 C CNN
@@ -403,7 +371,7 @@ F 3 "" H 2150 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L fabrikator2mini-mk2-rescue:R R37
 U 1 1 5A6FCFAB
 P 1350 4900
 F 0 "R37" V 1430 4900 50  0000 C CNN
@@ -414,7 +382,7 @@ F 3 "" H 1350 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R32
+L fabrikator2mini-mk2-rescue:R R32
 U 1 1 5A6FCFB2
 P 7150 2300
 F 0 "R32" V 7230 2300 50  0000 C CNN
@@ -425,7 +393,7 @@ F 3 "" H 7150 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R31
+L fabrikator2mini-mk2-rescue:R R31
 U 1 1 5A6FCFB9
 P 4050 2300
 F 0 "R31" V 4130 2300 50  0000 C CNN
@@ -436,7 +404,7 @@ F 3 "" H 4050 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R30
+L fabrikator2mini-mk2-rescue:R R30
 U 1 1 5A6FCFC0
 P 1200 2300
 F 0 "R30" V 1280 2300 50  0000 C CNN
@@ -447,7 +415,7 @@ F 3 "" H 1200 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR074
+L power:+3.3V #PWR074
 U 1 1 5A6FCFC7
 P 2000 1500
 F 0 "#PWR074" H 2000 1350 50  0001 C CNN
@@ -458,7 +426,7 @@ F 3 "" H 2000 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR075
+L power:+3.3V #PWR075
 U 1 1 5A6FCFCD
 P 4850 1500
 F 0 "#PWR075" H 4850 1350 50  0001 C CNN
@@ -469,7 +437,7 @@ F 3 "" H 4850 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR076
+L power:+3.3V #PWR076
 U 1 1 5A6FCFD3
 P 7950 1500
 F 0 "#PWR076" H 7950 1350 50  0001 C CNN
@@ -480,7 +448,7 @@ F 3 "" H 7950 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR077
+L power:+3.3V #PWR077
 U 1 1 5A6FCFD9
 P 2150 4100
 F 0 "#PWR077" H 2150 3950 50  0001 C CNN
@@ -491,7 +459,7 @@ F 3 "" H 2150 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 5A6FCFDF
 P 1150 4900
 F 0 "#PWR078" H 1150 4650 50  0001 C CNN
@@ -502,7 +470,7 @@ F 3 "" H 1150 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR079
+L power:GND #PWR079
 U 1 1 5A6FCFE5
 P 6950 2300
 F 0 "#PWR079" H 6950 2050 50  0001 C CNN
@@ -513,7 +481,7 @@ F 3 "" H 6950 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR080
+L power:GND #PWR080
 U 1 1 5A6FCFEB
 P 3850 2300
 F 0 "#PWR080" H 3850 2050 50  0001 C CNN
@@ -524,7 +492,7 @@ F 3 "" H 3850 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR081
+L power:GND #PWR081
 U 1 1 5A6FCFF1
 P 1000 2300
 F 0 "#PWR081" H 1000 2050 50  0001 C CNN
@@ -535,7 +503,7 @@ F 3 "" H 1000 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR082
+L power:VCC #PWR082
 U 1 1 5A6FCFF7
 P 3100 2600
 F 0 "#PWR082" H 3100 2450 50  0001 C CNN
@@ -546,7 +514,7 @@ F 3 "" H 3100 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR083
+L power:VCC #PWR083
 U 1 1 5A6FCFFD
 P 5950 2600
 F 0 "#PWR083" H 5950 2450 50  0001 C CNN
@@ -557,7 +525,7 @@ F 3 "" H 5950 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR084
+L power:VCC #PWR084
 U 1 1 5A6FD003
 P 9050 2600
 F 0 "#PWR084" H 9050 2450 50  0001 C CNN
@@ -568,7 +536,7 @@ F 3 "" H 9050 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR085
+L power:VCC #PWR085
 U 1 1 5A6FD009
 P 3250 5200
 F 0 "#PWR085" H 3250 5050 50  0001 C CNN
@@ -799,7 +767,7 @@ Connection ~ 2100 4600
 Wire Wire Line
 	4850 1500 4850 1550
 $Comp
-L R R33
+L fabrikator2mini-mk2-rescue:R R33
 U 1 1 5A6FDA23
 P 1200 2400
 F 0 "R33" V 1280 2400 50  0000 C CNN
@@ -810,7 +778,7 @@ F 3 "" H 1200 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR086
+L power:+3.3V #PWR086
 U 1 1 5A6FDA76
 P 1000 2400
 F 0 "#PWR086" H 1000 2250 50  0001 C CNN
@@ -834,7 +802,7 @@ Wire Wire Line
 	1950 2350 2000 2350
 Connection ~ 2000 2350
 $Comp
-L CP1 C10
+L fabrikator2mini-mk2-rescue:CP1 C10
 U 1 1 5A6FE7C0
 P 5100 4650
 F 0 "C10" H 5125 4750 50  0000 L CNN
@@ -845,7 +813,7 @@ F 3 "" H 5100 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C11
+L fabrikator2mini-mk2-rescue:CP1 C11
 U 1 1 5A6FE7C7
 P 5400 4650
 F 0 "C11" H 5425 4750 50  0000 L CNN
@@ -856,7 +824,7 @@ F 3 "" H 5400 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C12
+L fabrikator2mini-mk2-rescue:CP1 C12
 U 1 1 5A6FE7CE
 P 5700 4650
 F 0 "C12" H 5725 4750 50  0000 L CNN
@@ -867,7 +835,7 @@ F 3 "" H 5700 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C9
+L fabrikator2mini-mk2-rescue:CP1 C9
 U 1 1 5A6FE7D5
 P 4800 4650
 F 0 "C9" H 4825 4750 50  0000 L CNN
@@ -878,7 +846,7 @@ F 3 "" H 4800 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR087
+L power:GND #PWR087
 U 1 1 5A6FE7DC
 P 5250 4900
 F 0 "#PWR087" H 5250 4650 50  0001 C CNN
@@ -889,7 +857,7 @@ F 3 "" H 5250 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR088
+L power:VCC #PWR088
 U 1 1 5A6FE7E2
 P 5250 4400
 F 0 "#PWR088" H 5250 4250 50  0001 C CNN
@@ -930,7 +898,7 @@ Wire Wire Line
 	5400 4800 5400 4850
 Connection ~ 5400 4850
 $Comp
-L R R38
+L fabrikator2mini-mk2-rescue:R R38
 U 1 1 5A7089A4
 P 1350 5000
 F 0 "R38" V 1430 5000 50  0000 C CNN
@@ -941,7 +909,7 @@ F 3 "" H 1350 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R34
+L fabrikator2mini-mk2-rescue:R R34
 U 1 1 5A708A64
 P 4050 2400
 F 0 "R34" V 4130 2400 50  0000 C CNN
@@ -952,7 +920,7 @@ F 3 "" H 4050 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R35
+L fabrikator2mini-mk2-rescue:R R35
 U 1 1 5A708B30
 P 7150 2400
 F 0 "R35" V 7230 2400 50  0000 C CNN
@@ -963,7 +931,7 @@ F 3 "" H 7150 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR089
+L power:+3.3V #PWR089
 U 1 1 5A708C4C
 P 1150 5000
 F 0 "#PWR089" H 1150 4850 50  0001 C CNN
@@ -974,7 +942,7 @@ F 3 "" H 1150 5000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR090
+L power:+3.3V #PWR090
 U 1 1 5A708C9F
 P 3850 2400
 F 0 "#PWR090" H 3850 2250 50  0001 C CNN
@@ -985,7 +953,7 @@ F 3 "" H 3850 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR091
+L power:+3.3V #PWR091
 U 1 1 5A708DCA
 P 6950 2400
 F 0 "#PWR091" H 6950 2250 50  0001 C CNN
