@@ -37,7 +37,7 @@ F 3 "" H 1650 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:L_Small L2
+L Device:L_Small L2
 U 1 1 5A700EA7
 P 2600 2900
 F 0 "L2" H 2630 2940 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 2600 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C15
+L Device:CP1 C15
 U 1 1 5A700EBC
 P 900 2700
 F 0 "C15" H 925 2800 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 900 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C18
+L Device:CP1 C18
 U 1 1 5A700EC3
 P 2750 3100
 F 0 "C18" H 2775 3200 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 2750 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C19
+L Device:CP1 C19
 U 1 1 5A700ECA
 P 2950 3100
 F 0 "C19" H 2975 3200 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 3250 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R39
+L Device:R R39
 U 1 1 5A700ED7
 P 2350 3700
 F 0 "R39" V 2430 3700 50  0000 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Connection ~ 1000 2900
 NoConn ~ 1150 3700
 $Comp
-L fabrikator2mini-mk2-rescue:C C17
+L Device:C C17
 U 1 1 5A734B53
 P 2200 2700
 AR Path="/5A734B53" Ref="C17"  Part="1" 
@@ -221,7 +221,7 @@ F 3 "" H 2200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C16
+L Device:C C16
 U 1 1 5A73A734
 P 1100 2700
 AR Path="/5A73A734" Ref="C16"  Part="1" 

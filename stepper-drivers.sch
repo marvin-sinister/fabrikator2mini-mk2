@@ -239,47 +239,47 @@ Z_2A
 Text GLabel 9050 2400 2    60   Input ~ 0
 Z_2B
 $Comp
-L fabrikator2mini-mk2-rescue:CONN_02X03 P16
+L Connector_Generic:Conn_02x03_Odd_Even P16
 U 1 1 5A6FCF5B
-P 1650 2100
-F 0 "P16" H 1650 2300 50  0000 C CNN
-F 1 "SW_DIP" H 1650 1900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1650 900 50  0001 C CNN
-F 3 "" H 1650 900 50  0000 C CNN
-	1    1650 2100
+P 1600 2100
+F 0 "P16" H 1600 2300 50  0000 C CNN
+F 1 "SW_DIP" H 1600 1900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1600 900 50  0001 C CNN
+F 3 "" H 1600 900 50  0000 C CNN
+	1    1600 2100
 	1    0    0    1   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CONN_02X03 P17
+L Connector_Generic:Conn_02x03_Odd_Even P17
 U 1 1 5A6FCF62
-P 4500 2100
-F 0 "P17" H 4500 2300 50  0000 C CNN
-F 1 "SW_DIP" H 4500 1900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4500 900 50  0001 C CNN
-F 3 "" H 4500 900 50  0000 C CNN
-	1    4500 2100
+P 4450 2100
+F 0 "P17" H 4450 2300 50  0000 C CNN
+F 1 "SW_DIP" H 4450 1900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4450 900 50  0001 C CNN
+F 3 "" H 4450 900 50  0000 C CNN
+	1    4450 2100
 	1    0    0    1   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CONN_02X03 P18
+L Connector_Generic:Conn_02x03_Odd_Even P18
 U 1 1 5A6FCF69
-P 7600 2100
-F 0 "P18" H 7600 2300 50  0000 C CNN
-F 1 "SW_DIP" H 7600 1900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 7600 900 50  0001 C CNN
-F 3 "" H 7600 900 50  0000 C CNN
-	1    7600 2100
+P 7550 2100
+F 0 "P18" H 7550 2300 50  0000 C CNN
+F 1 "SW_DIP" H 7550 1900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 7550 900 50  0001 C CNN
+F 3 "" H 7550 900 50  0000 C CNN
+	1    7550 2100
 	1    0    0    1   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CONN_02X03 P19
+L Connector_Generic:Conn_02x03_Odd_Even P19
 U 1 1 5A6FCF70
-P 1800 4700
-F 0 "P19" H 1800 4900 50  0000 C CNN
-F 1 "SW_DIP" H 1800 4500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1800 3500 50  0001 C CNN
-F 3 "" H 1800 3500 50  0000 C CNN
-	1    1800 4700
+P 1750 4700
+F 0 "P19" H 1750 4900 50  0000 C CNN
+F 1 "SW_DIP" H 1750 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1750 3500 50  0001 C CNN
+F 3 "" H 1750 3500 50  0000 C CNN
+	1    1750 4700
 	1    0    0    1   
 $EndComp
 $Comp
@@ -327,7 +327,7 @@ F 3 "" H 1350 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R27
+L Device:R R27
 U 1 1 5A6FCF8F
 P 2000 1700
 F 0 "R27" V 2080 1700 50  0000 C CNN
@@ -338,7 +338,7 @@ F 3 "" H 2000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R28
+L Device:R R28
 U 1 1 5A6FCF96
 P 4850 1700
 F 0 "R28" V 4930 1700 50  0000 C CNN
@@ -349,7 +349,7 @@ F 3 "" H 4850 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R29
+L Device:R R29
 U 1 1 5A6FCF9D
 P 7950 1700
 F 0 "R29" V 8030 1700 50  0000 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 7950 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R36
+L Device:R R36
 U 1 1 5A6FCFA4
 P 2150 4300
 F 0 "R36" V 2230 4300 50  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 2150 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R37
+L Device:R R37
 U 1 1 5A6FCFAB
 P 1350 4900
 F 0 "R37" V 1430 4900 50  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "" H 1350 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R32
+L Device:R R32
 U 1 1 5A6FCFB2
 P 7150 2300
 F 0 "R32" V 7230 2300 50  0000 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 7150 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R31
+L Device:R R31
 U 1 1 5A6FCFB9
 P 4050 2300
 F 0 "R31" V 4130 2300 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "" H 4050 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R30
+L Device:R R30
 U 1 1 5A6FCFC0
 P 1200 2300
 F 0 "R30" V 1280 2300 50  0000 C CNN
@@ -559,9 +559,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 2600 2000 2600
 Wire Wire Line
-	1950 1900 2050 1900
+	1950 1900 2000 1900
 Wire Wire Line
-	4800 1900 4900 1900
+	4800 1900 4850 1900
 Wire Wire Line
 	4850 2500 4900 2500
 Wire Wire Line
@@ -587,9 +587,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 2500 7950 2500
 Wire Wire Line
-	7900 1900 8000 1900
+	7900 1900 7950 1900
 Wire Wire Line
-	2100 4500 2200 4500
+	2100 4500 2150 4500
 Wire Wire Line
 	2150 5100 2200 5100
 Wire Wire Line
@@ -637,31 +637,31 @@ Wire Wire Line
 Wire Wire Line
 	2200 5000 2150 5000
 Wire Wire Line
-	2150 5000 2150 4900
+	2150 5000 2150 4950
 Wire Wire Line
 	2150 4900 2200 4900
 Wire Wire Line
 	8000 2400 7950 2400
 Wire Wire Line
-	7950 2400 7950 2300
+	7950 2400 7950 2350
 Wire Wire Line
 	7950 2300 8000 2300
 Wire Wire Line
 	4900 2400 4850 2400
 Wire Wire Line
-	4850 2400 4850 2300
+	4850 2400 4850 2350
 Wire Wire Line
 	4850 2300 4900 2300
 Wire Wire Line
 	2000 2400 2050 2400
 Wire Wire Line
-	2000 2300 2000 2400
+	2000 2300 2000 2350
 Wire Wire Line
 	2000 2300 2050 2300
 Wire Wire Line
 	1500 4800 1550 4800
 Wire Wire Line
-	1500 4550 1500 4800
+	1500 4550 1500 4600
 Wire Wire Line
 	1550 4600 1500 4600
 Connection ~ 1500 4600
@@ -673,9 +673,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 4700 2050 4700
 Wire Wire Line
-	2050 4600 2200 4600
+	2050 4600 2100 4600
 Wire Wire Line
-	7850 2000 8000 2000
+	7850 2000 7900 2000
 Wire Wire Line
 	8000 2100 7850 2100
 Wire Wire Line
@@ -683,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2200 7350 2200
 Wire Wire Line
-	7300 1950 7300 2200
+	7300 1950 7300 2000
 Wire Wire Line
 	7300 2000 7350 2000
 Connection ~ 7300 2000
@@ -704,13 +704,13 @@ Wire Wire Line
 	1350 2100 1400 2100
 Connection ~ 1350 2100
 Wire Wire Line
-	1900 2000 2050 2000
+	1900 2000 1950 2000
 Wire Wire Line
 	2050 2100 1900 2100
 Wire Wire Line
 	1900 2200 2050 2200
 Wire Wire Line
-	4750 2000 4900 2000
+	4750 2000 4800 2000
 Wire Wire Line
 	4900 2100 4750 2100
 Wire Wire Line
@@ -719,9 +719,9 @@ Connection ~ 4200 2100
 Wire Wire Line
 	4200 2000 4250 2000
 Wire Wire Line
-	4200 1950 4200 2200
+	4200 1950 4200 2000
 Wire Wire Line
-	1350 1950 1350 2200
+	1350 1950 1350 2000
 Wire Wire Line
 	1050 2300 1000 2300
 Wire Wire Line
@@ -767,7 +767,7 @@ Connection ~ 2100 4600
 Wire Wire Line
 	4850 1500 4850 1550
 $Comp
-L fabrikator2mini-mk2-rescue:R R33
+L Device:R R33
 U 1 1 5A6FDA23
 P 1200 2400
 F 0 "R33" V 1280 2400 50  0000 C CNN
@@ -802,7 +802,7 @@ Wire Wire Line
 	1950 2350 2000 2350
 Connection ~ 2000 2350
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C10
+L Device:CP1 C10
 U 1 1 5A6FE7C0
 P 5100 4650
 F 0 "C10" H 5125 4750 50  0000 L CNN
@@ -813,7 +813,7 @@ F 3 "" H 5100 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C11
+L Device:CP1 C11
 U 1 1 5A6FE7C7
 P 5400 4650
 F 0 "C11" H 5425 4750 50  0000 L CNN
@@ -824,7 +824,7 @@ F 3 "" H 5400 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C12
+L Device:CP1 C12
 U 1 1 5A6FE7CE
 P 5700 4650
 F 0 "C12" H 5725 4750 50  0000 L CNN
@@ -835,7 +835,7 @@ F 3 "" H 5700 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C9
+L Device:CP1 C9
 U 1 1 5A6FE7D5
 P 4800 4650
 F 0 "C9" H 4825 4750 50  0000 L CNN
@@ -870,13 +870,13 @@ $EndComp
 Wire Wire Line
 	4800 4500 4800 4450
 Wire Wire Line
-	4800 4450 5700 4450
+	4800 4450 5100 4450
 Wire Wire Line
 	5700 4450 5700 4500
 Wire Wire Line
 	4800 4800 4800 4850
 Wire Wire Line
-	4800 4850 5700 4850
+	4800 4850 5100 4850
 Wire Wire Line
 	5700 4850 5700 4800
 Wire Wire Line
@@ -898,7 +898,7 @@ Wire Wire Line
 	5400 4800 5400 4850
 Connection ~ 5400 4850
 $Comp
-L fabrikator2mini-mk2-rescue:R R38
+L Device:R R38
 U 1 1 5A7089A4
 P 1350 5000
 F 0 "R38" V 1430 5000 50  0000 C CNN
@@ -909,7 +909,7 @@ F 3 "" H 1350 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R34
+L Device:R R34
 U 1 1 5A708A64
 P 4050 2400
 F 0 "R34" V 4130 2400 50  0000 C CNN
@@ -920,7 +920,7 @@ F 3 "" H 4050 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R35
+L Device:R R35
 U 1 1 5A708B30
 P 7150 2400
 F 0 "R35" V 7230 2400 50  0000 C CNN
@@ -998,4 +998,56 @@ Text GLabel 3250 4900 2    60   Input ~ 0
 E_2A
 Text GLabel 3250 5000 2    60   Input ~ 0
 E_2B
+Wire Wire Line
+	1500 4600 1500 4700
+Wire Wire Line
+	1500 4700 1500 4800
+Wire Wire Line
+	7300 2000 7300 2100
+Wire Wire Line
+	7300 2100 7300 2200
+Wire Wire Line
+	4200 2000 4200 2100
+Wire Wire Line
+	1350 2000 1350 2100
+Wire Wire Line
+	1350 2100 1350 2200
+Wire Wire Line
+	4200 2100 4200 2200
+Wire Wire Line
+	2000 1900 2050 1900
+Wire Wire Line
+	4850 1900 4900 1900
+Wire Wire Line
+	1950 2000 2050 2000
+Wire Wire Line
+	4800 2000 4900 2000
+Wire Wire Line
+	7900 2000 8000 2000
+Wire Wire Line
+	7950 1900 8000 1900
+Wire Wire Line
+	2150 4500 2200 4500
+Wire Wire Line
+	2100 4600 2200 4600
+Wire Wire Line
+	2000 2350 2000 2400
+Wire Wire Line
+	5250 4850 5400 4850
+Wire Wire Line
+	5250 4450 5400 4450
+Wire Wire Line
+	5100 4450 5250 4450
+Wire Wire Line
+	5100 4850 5250 4850
+Wire Wire Line
+	5400 4450 5700 4450
+Wire Wire Line
+	5400 4850 5700 4850
+Wire Wire Line
+	4850 2350 4850 2300
+Wire Wire Line
+	7950 2350 7950 2300
+Wire Wire Line
+	2150 4950 2150 4900
 $EndSCHEMATC
