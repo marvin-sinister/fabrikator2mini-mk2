@@ -92,7 +92,7 @@ F 3 "" H 950 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Micro_SD_Card CON1
+L Connector:Micro_SD_Card CON1
 U 1 1 5A653215
 P 1900 7050
 F 0 "CON1" H 1250 7650 50  0000 C CNN
@@ -198,7 +198,7 @@ HOTEND
 Text GLabel 8400 1150 2    60   Input ~ 0
 RESET
 $Comp
-L fabrikator2mini-mk2-rescue:R R3
+L Device:R R3
 U 1 1 5A676194
 P 1050 1300
 F 0 "R3" V 1130 1300 50  0000 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 1050 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R1
+L Device:R R1
 U 1 1 5A676201
 P 1450 1100
 F 0 "R1" V 1530 1100 50  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 1450 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R5
+L Device:R R5
 U 1 1 5A676228
 P 1450 1350
 F 0 "R5" V 1530 1350 50  0000 C CNN
@@ -231,7 +231,7 @@ F 3 "" H 1450 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D1
+L Device:LED D1
 U 1 1 5A676255
 P 1050 1650
 F 0 "D1" H 1050 1750 50  0000 C CNN
@@ -266,7 +266,7 @@ $EndComp
 Text GLabel 1000 1100 0    60   Input ~ 0
 FAN1
 $Comp
-L fabrikator2mini-mk2-rescue:R R14
+L Device:R R14
 U 1 1 5A677AEB
 P 1050 2950
 F 0 "R14" V 1130 2950 50  0000 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 1050 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R12
+L Device:R R12
 U 1 1 5A677AF1
 P 1450 2750
 F 0 "R12" V 1530 2750 50  0000 C CNN
@@ -288,7 +288,7 @@ F 3 "" H 1450 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R16
+L Device:R R16
 U 1 1 5A677AF7
 P 1450 3000
 F 0 "R16" V 1530 3000 50  0000 C CNN
@@ -299,7 +299,7 @@ F 3 "" H 1450 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D3
+L Device:LED D3
 U 1 1 5A677AFD
 P 1050 3300
 F 0 "D3" H 1050 3400 50  0000 C CNN
@@ -332,7 +332,7 @@ F 3 "" H 1050 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R4
+L Device:R R4
 U 1 1 5A677EF2
 P 3250 1300
 F 0 "R4" V 3330 1300 50  0000 C CNN
@@ -343,7 +343,7 @@ F 3 "" H 3250 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R2
+L Device:R R2
 U 1 1 5A677EF8
 P 3650 1100
 F 0 "R2" V 3730 1100 50  0000 C CNN
@@ -354,7 +354,7 @@ F 3 "" H 3650 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R6
+L Device:R R6
 U 1 1 5A677EFE
 P 3650 1350
 F 0 "R6" V 3730 1350 50  0000 C CNN
@@ -365,7 +365,7 @@ F 3 "" H 3650 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D2
+L Device:LED D2
 U 1 1 5A677F04
 P 3250 1650
 F 0 "D2" H 3250 1750 50  0000 C CNN
@@ -398,7 +398,7 @@ F 3 "" H 3250 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R15
+L Device:R R15
 U 1 1 5A677F39
 P 3250 2950
 F 0 "R15" V 3330 2950 50  0000 C CNN
@@ -409,7 +409,7 @@ F 3 "" H 3250 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R13
+L Device:R R13
 U 1 1 5A677F3F
 P 3650 2750
 F 0 "R13" V 3730 2750 50  0000 C CNN
@@ -420,7 +420,7 @@ F 3 "" H 3650 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R17
+L Device:R R17
 U 1 1 5A677F45
 P 3650 3000
 F 0 "R17" V 3730 3000 50  0000 C CNN
@@ -431,7 +431,7 @@ F 3 "" H 3650 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D4
+L Device:LED D4
 U 1 1 5A677F4B
 P 3250 3300
 F 0 "D4" H 3250 3400 50  0000 C CNN
@@ -586,7 +586,7 @@ USB1
 Text GLabel 7000 1650 0    60   Input ~ 0
 USB2
 $Comp
-L fabrikator2mini-mk2-rescue:R R22
+L Device:R R22
 U 1 1 5A6A131F
 P 1350 4700
 F 0 "R22" V 1430 4700 50  0000 C CNN
@@ -597,7 +597,7 @@ F 3 "" H 1350 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C5
+L Device:C C5
 U 1 1 5A6A13A4
 P 1350 5100
 F 0 "C5" H 1375 5200 50  0000 L CNN
@@ -634,7 +634,7 @@ F 3 "" H 1350 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R23
+L Device:R R23
 U 1 1 5A6A4196
 P 2400 4700
 F 0 "R23" V 2480 4700 50  0000 C CNN
@@ -645,7 +645,7 @@ F 3 "" H 2400 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C6
+L Device:C C6
 U 1 1 5A6A419C
 P 2400 5100
 F 0 "C6" H 2425 5200 50  0000 L CNN
@@ -744,7 +744,7 @@ SCL
 Text GLabel 6500 6000 0    60   Input ~ 0
 SDA
 $Comp
-L fabrikator2mini-mk2-rescue:R R24
+L Device:R R24
 U 1 1 5A6C9D5D
 P 10500 5900
 F 0 "R24" V 10580 5900 50  0000 C CNN
@@ -755,7 +755,7 @@ F 3 "" H 10500 5900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R25
+L Device:R R25
 U 1 1 5A6C9E82
 P 10500 6000
 F 0 "R25" V 10580 6000 50  0000 C CNN
@@ -816,7 +816,7 @@ $EndComp
 Text GLabel 8900 3200 2    60   Input ~ 0
 RESET
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C7
+L Device:CP1 C7
 U 1 1 5A6D3A77
 P 3000 6600
 F 0 "C7" H 3025 6700 50  0000 L CNN
@@ -838,7 +838,7 @@ F 3 "" H 3100 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C8
+L Device:C C8
 U 1 1 5A6D4F8D
 P 3200 6600
 F 0 "C8" H 3225 6700 50  0000 L CNN
@@ -849,7 +849,7 @@ F 3 "" H 3200 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R18
+L Device:R R18
 U 1 1 5A6D8682
 P 7850 4350
 F 0 "R18" V 7930 4350 50  0000 C CNN
@@ -860,7 +860,7 @@ F 3 "" H 7850 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C1
+L Device:C C1
 U 1 1 5A6D8688
 P 7850 4750
 F 0 "C1" H 7875 4850 50  0000 L CNN
@@ -893,7 +893,7 @@ F 3 "" H 7850 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R19
+L Device:R R19
 U 1 1 5A6D8982
 P 8750 4350
 F 0 "R19" V 8830 4350 50  0000 C CNN
@@ -904,7 +904,7 @@ F 3 "" H 8750 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C2
+L Device:C C2
 U 1 1 5A6D8988
 P 8750 4750
 F 0 "C2" H 8775 4850 50  0000 L CNN
@@ -937,7 +937,7 @@ F 3 "" H 8750 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R20
+L Device:R R20
 U 1 1 5A6D8C48
 P 9700 4300
 F 0 "R20" V 9780 4300 50  0000 C CNN
@@ -948,7 +948,7 @@ F 3 "" H 9700 4300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C3
+L Device:C C3
 U 1 1 5A6D8C4E
 P 9700 4700
 F 0 "C3" H 9725 4800 50  0000 L CNN
@@ -987,7 +987,7 @@ END_Y
 Text GLabel 9650 4500 0    60   Input ~ 0
 END_Z
 $Comp
-L fabrikator2mini-mk2-rescue:R R7
+L Device:R R7
 U 1 1 5A6D9C84
 P 6850 1850
 F 0 "R7" V 6930 1850 50  0000 C CNN
@@ -1337,7 +1337,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4050 9700 4100
 $Comp
-L fabrikator2mini-mk2-rescue:R R9
+L Device:R R9
 U 1 1 5A6DC4E6
 P 6850 2050
 F 0 "R9" V 6930 2050 50  0000 C CNN
@@ -1348,7 +1348,7 @@ F 3 "" H 6850 2050 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R8
+L Device:R R8
 U 1 1 5A6DC646
 P 6850 1950
 F 0 "R8" V 6930 1950 50  0000 C CNN
@@ -1359,7 +1359,7 @@ F 3 "" H 6850 1950 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R10
+L Device:R R10
 U 1 1 5A6DD7ED
 P 8550 2250
 F 0 "R10" V 8630 2250 50  0000 C CNN
@@ -1370,7 +1370,7 @@ F 3 "" H 8550 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:R R11
+L Device:R R11
 U 1 1 5A6DD918
 P 8550 2350
 F 0 "R11" V 8630 2350 50  0000 C CNN
@@ -1464,7 +1464,7 @@ HOTEND_SENSE
 Text GLabel 6000 4700 3    60   Input ~ 0
 BTN1
 $Comp
-L fabrikator2mini-mk2-rescue:R R21
+L Device:R R21
 U 1 1 5A707093
 P 10600 4350
 F 0 "R21" V 10680 4350 50  0000 C CNN
@@ -1475,7 +1475,7 @@ F 3 "" H 10600 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C4
+L Device:C C4
 U 1 1 5A707099
 P 10600 4750
 F 0 "C4" H 10625 4850 50  0000 L CNN
@@ -1654,7 +1654,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 4550 3850 4650
 $Comp
-L fabrikator2mini-mk2-rescue:Fuse_Small F1
+L Device:Fuse_Small F1
 U 1 1 5A71178D
 P 4000 4550
 F 0 "F1" H 4000 4490 50  0000 C CNN
@@ -1719,7 +1719,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 6200 8800 6200
 $Comp
-L fabrikator2mini-mk2-rescue:R R26
+L Device:R R26
 U 1 1 5A716631
 P 10700 5700
 F 0 "R26" V 10780 5700 50  0000 C CNN
@@ -1741,7 +1741,7 @@ F 3 "" H 10700 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:USB_OTG J1
+L Connector:USB_B_Micro J1
 U 1 1 5A7B7D10
 P 9850 5900
 F 0 "J1" H 9650 6350 50  0000 L CNN
@@ -1757,7 +1757,7 @@ Connection ~ 10700 5900
 Wire Wire Line
 	10700 5500 10700 5550
 $Comp
-L fabrikator2mini-mk2-rescue:R R40
+L Device:R R40
 U 1 1 5A7B8C7B
 P 4350 5100
 F 0 "R40" V 4430 5100 50  0000 C CNN
@@ -1779,7 +1779,7 @@ F 3 "" H 4600 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:D_Zener D5
+L Device:D_Zener D5
 U 1 1 5A7B920C
 P 4600 4750
 F 0 "D5" H 4600 4850 50  0000 C CNN
@@ -1809,7 +1809,7 @@ Connection ~ 4350 5300
 Wire Wire Line
 	4100 4550 4150 4550
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J5
 U 1 1 5A7E181E
 P 6750 5900
 F 0 "J5" H 6750 6100 50  0000 C CNN
@@ -1820,7 +1820,7 @@ F 3 "" H 6750 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x06 J6
+L Connector_Generic:Conn_01x06 J6
 U 1 1 5A7E1951
 P 7900 6000
 F 0 "J6" H 7900 6300 50  0000 C CNN
@@ -1831,7 +1831,7 @@ F 3 "" H 7900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x05 J14
+L Connector_Generic:Conn_01x05 J14
 U 1 1 5A7E1A98
 P 6750 7500
 F 0 "J14" H 6750 7800 50  0000 C CNN
@@ -1842,7 +1842,7 @@ F 3 "" H 6750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J8
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5A7E1BEE
 P 4400 6250
 F 0 "J8" H 4400 6350 50  0000 C CNN
@@ -1853,7 +1853,7 @@ F 3 "" H 4400 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x12 J12
+L Connector_Generic:Conn_01x12 J12
 U 1 1 5A7E1711
 P 5650 7050
 F 0 "J12" H 5650 7650 50  0000 C CNN
@@ -1892,7 +1892,7 @@ Wire Wire Line
 	5400 7600 5350 7600
 Connection ~ 5400 7600
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x06 J10
+L Connector_Generic:Conn_01x06 J10
 U 1 1 5A7E4A9C
 P 4400 6850
 F 0 "J10" H 4400 7150 50  0000 C CNN
@@ -1903,7 +1903,7 @@ F 3 "" H 4400 6850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J13
+L Connector_Generic:Conn_01x02 J13
 U 1 1 5A7E4DBB
 P 4400 7250
 F 0 "J13" H 4400 7350 50  0000 C CNN
@@ -1914,7 +1914,7 @@ F 3 "" H 4400 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J15
+L Connector_Generic:Conn_01x02 J15
 U 1 1 5A7E51D5
 P 4400 7550
 F 0 "J15" H 4400 7650 50  0000 C CNN
@@ -1925,7 +1925,7 @@ F 3 "" H 4400 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x04 J9
+L Connector_Generic:Conn_01x04 J9
 U 1 1 5A7E611B
 P 6750 6400
 F 0 "J9" H 6750 6600 50  0000 C CNN
@@ -1936,7 +1936,7 @@ F 3 "" H 6750 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x04 J11
+L Connector_Generic:Conn_01x04 J11
 U 1 1 5A7E62E2
 P 6750 6900
 F 0 "J11" H 6750 7100 50  0000 C CNN
@@ -1947,7 +1947,7 @@ F 3 "" H 6750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x05 J7
+L Connector_Generic:Conn_01x05 J7
 U 1 1 5A7E6DE4
 P 9050 6000
 F 0 "J7" H 9050 6300 50  0000 C CNN
@@ -1958,7 +1958,7 @@ F 3 "" H 9050 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J4
 U 1 1 5A7E7562
 P 2800 4900
 F 0 "J4" H 2800 5000 50  0000 C CNN
@@ -1969,7 +1969,7 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x03 J3
+L Connector_Generic:Conn_01x03 J3
 U 1 1 5A7E79B9
 P 3550 4750
 F 0 "J3" H 3550 4950 50  0000 C CNN
@@ -1980,7 +1980,7 @@ F 3 "" H 3550 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5A7E8361
 P 8650 3300
 F 0 "J2" H 8650 3400 50  0000 C CNN
@@ -2008,7 +2008,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3550 8900 3550
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J16
+L Connector_Generic:Conn_01x02 J16
 U 1 1 5AC3A672
 P 8650 3650
 F 0 "J16" H 8650 3750 50  0000 C CNN
@@ -2034,7 +2034,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4750 3900 4750
 $Comp
-L fabrikator2mini-mk2-rescue:R R42
+L Device:R R42
 U 1 1 5AC5248B
 P 8150 4350
 F 0 "R42" V 8230 4350 50  0000 C CNN
@@ -2045,7 +2045,7 @@ F 3 "" H 8150 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D7
+L Device:LED D7
 U 1 1 5AC52491
 P 8150 4700
 F 0 "D7" H 8150 4800 50  0000 C CNN
@@ -2058,7 +2058,7 @@ $EndComp
 Wire Wire Line
 	8150 4500 8150 4550
 $Comp
-L fabrikator2mini-mk2-rescue:R R43
+L Device:R R43
 U 1 1 5AC52620
 P 9050 4350
 F 0 "R43" V 9130 4350 50  0000 C CNN
@@ -2069,7 +2069,7 @@ F 3 "" H 9050 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D8
+L Device:LED D8
 U 1 1 5AC52626
 P 9050 4700
 F 0 "D8" H 9050 4800 50  0000 C CNN
@@ -2082,7 +2082,7 @@ $EndComp
 Wire Wire Line
 	9050 4500 9050 4550
 $Comp
-L fabrikator2mini-mk2-rescue:R R41
+L Device:R R41
 U 1 1 5AC528E9
 P 10000 4300
 F 0 "R41" V 10080 4300 50  0000 C CNN
@@ -2093,7 +2093,7 @@ F 3 "" H 10000 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D6
+L Device:LED D6
 U 1 1 5AC528EF
 P 10000 4650
 F 0 "D6" H 10000 4750 50  0000 C CNN
@@ -2106,7 +2106,7 @@ $EndComp
 Wire Wire Line
 	10000 4450 10000 4500
 $Comp
-L fabrikator2mini-mk2-rescue:R R44
+L Device:R R44
 U 1 1 5AC530E8
 P 10900 4350
 F 0 "R44" V 10980 4350 50  0000 C CNN
@@ -2117,7 +2117,7 @@ F 3 "" H 10900 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D9
+L Device:LED D9
 U 1 1 5AC530EE
 P 10900 4700
 F 0 "D9" H 10900 4800 50  0000 C CNN
@@ -2229,7 +2229,7 @@ F 3 "" H 4050 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:Conn_01x02 J17
+L Connector_Generic:Conn_01x02 J17
 U 1 1 5AC708BC
 P 5650 6250
 F 0 "J17" H 5650 6350 50  0000 C CNN
@@ -2246,7 +2246,7 @@ FAN1_PWR
 Wire Wire Line
 	5400 6350 5450 6350
 $Comp
-L fabrikator2mini-mk2-rescue:R R45
+L Device:R R45
 U 1 1 5AC72C42
 P 5550 1950
 F 0 "R45" V 5630 1950 50  0000 C CNN
@@ -2257,7 +2257,7 @@ F 3 "" H 5550 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:LED D10
+L Device:LED D10
 U 1 1 5AC72C48
 P 5550 2300
 F 0 "D10" H 5550 2400 50  0000 C CNN
@@ -2287,7 +2287,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2450 5550 2500
 $Comp
-L fabrikator2mini-mk2-rescue:CP1 C20
+L Device:CP1 C20
 U 1 1 5AC73C89
 P 4850 4850
 F 0 "C20" H 4875 4950 50  0000 L CNN
@@ -2298,7 +2298,7 @@ F 3 "" H 4850 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fabrikator2mini-mk2-rescue:C C21
+L Device:C C21
 U 1 1 5AC73F93
 P 5150 4850
 F 0 "C21" H 5175 4950 50  0000 L CNN
